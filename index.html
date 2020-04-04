@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,17 +9,41 @@
 
     <!-- Bootstrap -->
     <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/main.css" rel="stylesheet">
     <![endif]-->
 </head>
 <body>
 <!--header-->
 <div id="header"></div>
 
-hhh
-<!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+<!--spider-->
+<div id="lb_id" class="lb_box">
+    <div class="lb_imgbox">
+        <div class="lb_imgleft">
+            <ul class="lb_img">
+                <li class="lb_li"><a href="#"><img class="img" src="./images/1.jpg" alt=""></a></li>
+                <li class="lb_li"><a href="#"><img class="img" src="./images/2.jpg" alt=""></a></li>
+                <li class="lb_li"><a href="#"><img class="img" src="./images/3.jpg" alt=""></a></li>
+                <li class="lb_li"><a href="#"><img class="img" src="./images/4.jpg" alt=""></a></li>
+                <li class="lb_li"><a href="#"><img class="img" src="./images/1.jpg" alt=""></a></li>
+            </ul>
+        </div>
+        <div class="lb_point">#
+            <ol id='test' class="li_ol">
+                <li class="lb_olli pointer"></li>
+                <li class="lb_olli pointer"></li>
+                <li class="lb_olli pointer"></li>
+                <li class="lb_olli pointer"></li>
+            </ol>
+        </div>
+        <div id="lb_lbtn" class="lb_btn lb_btnl flex align-center justify-center pointer"><span class="glyphicon glyphicon-menu-left text-white text-sl"></span></div>
+        <div id="lb_rbtn" class="lb_btn lb_btnr flex align-center justify-center pointer"><span class="glyphicon glyphicon-menu-right text-white text-sl"></span></div>
+    </div>
+</div>
+
 <script src="./js/jquery.min.js"></script>
-<!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
 <script src="./js/bootstrap.min.js"></script>
+<script src="./js/spider.js"></script>
 <script>
     // 利用jq的load方法引入header
     $("#header").load('./header.html');
