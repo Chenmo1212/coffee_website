@@ -3,7 +3,6 @@
 */
 
 
-
 /*
 *轮播
 */
@@ -37,6 +36,7 @@
     width: 600%;
     height: 100%;
     display: flex;
+    padding: 0;
 }
 
 .lb_li {
@@ -101,10 +101,14 @@
 }
 
 /*
-*主页
+* main
 */
-@media screen and (min-width: 1200px) {
-    .layui-container {
-        width: 1300px;
-    }
+
+.item .title span {
+    width: 100px;
+    margin-left: -50px;
+    top: 30px;
+}
+.products-group .row .img {
+    width: 100%;
 }

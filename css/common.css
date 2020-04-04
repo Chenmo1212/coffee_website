@@ -48,7 +48,7 @@
     --gradualPink: linear-gradient(45deg, #ec008c, #6739b6);
     --gradualBlue: linear-gradient(45deg, #0081ff, #1cbbb4);
     /* 阴影透明色 */
-    --ShadowSize: 6rpx 6rpx 8rpx;
+    --ShadowSize: 6 rpx 6 rpx 8 rpx;
     --redShadow: rgba(204, 69, 59, 0.2);
     --orangeShadow: rgba(217, 109, 26, 0.2);
     --yellowShadow: rgba(224, 170, 7, 0.2);
@@ -408,7 +408,9 @@
 .pointer {
     cursor: pointer;
 }
-
+.text-indent {
+    text-indent: 2em;
+}
 .text-xs {
     font-size: 10px;
 }
@@ -577,8 +579,171 @@
 
 
 /* ====================================
+                 定位
+ ====================================== */
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.top-0 {
+    top: 0;
+}
+
+.top-xs {
+    top: 10px;
+}
+
+.top-sm {
+    top: 20px;
+}
+
+.top {
+    top: 30px;
+}
+
+.top-lg {
+    top: 40px;
+}
+
+.top-xl {
+    top: 50px;
+}
+
+.right-0 {
+    right: 0;
+}
+
+.right-xs {
+    right: 10px;
+}
+
+.right-sm {
+    right: 20px;
+}
+
+.right {
+    right: 30px;
+}
+
+.right-lg {
+    right: 40px;
+}
+
+.right-xl {
+    right: 50px;
+}
+
+.bottom-0 {
+    bottom: 0;
+}
+
+.bottom-xs {
+    bottom: 10px;
+}
+
+.bottom-sm {
+    bottom: 20px;
+}
+
+.bottom {
+    bottom: 30px;
+}
+
+.bottom-lg {
+    bottom: 40px;
+}
+
+.bottom-xl {
+    bottom: 50px;
+}
+
+.left-0 {
+    left: 0;
+}
+
+.left-50 {
+    left: 50%;
+}
+
+.left-xs {
+    left: 10px;
+}
+
+.left-sm {
+    left: 20px;
+}
+
+.left {
+    left: 30px;
+}
+
+.left-lg {
+    left: 40px;
+}
+
+.left-xl {
+    left: 50px;
+}
+
+.lr-xs {
+    left: 10px;
+    right: 10px;
+}
+
+.lr-sm {
+    left: 20px;
+    right: 20px;
+}
+
+.lr {
+    left: 30px;
+    right: 30px;
+}
+
+.lr-lg {
+    left: 40px;
+    right: 40px;
+}
+
+.lr-xl {
+    left: 50px;
+    right: 50px;
+}
+
+.tb-xs {
+    top: 10px;
+    bottom: 10px;
+}
+
+.tb-sm {
+    top: 20px;
+    bottom: 20px;
+}
+
+.tb {
+    top: 30px;
+    bottom: 30px;
+}
+
+.tb-lg {
+    top: 40px;
+    bottom: 40px;
+}
+
+.tb-xl {
+    top: 50px;
+    bottom: 50px;
+}
+
+
+/* ====================================
                  布局
  ====================================== */
+
 .block {
     display: block;
 }
@@ -657,4 +822,14 @@
 
 .justify-around {
     justify-content: space-around;
+}
+
+
+
+/* ====================================
+                 图片
+ ====================================== */
+
+.img-round {
+    border-radius: 50%;
 }

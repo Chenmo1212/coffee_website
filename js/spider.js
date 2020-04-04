@@ -76,9 +76,9 @@ window.onload = function() {
 
 
     //自动轮播，模拟点击
-    var timer = setInterval(function() {
-        rbtn.onclick();
-    }, 4000);
+    // var timer = setInterval(function() {
+    //     rbtn.onclick();
+    // }, 4000);
     //鼠标移入暂停，移入鼠标清除自动定时器
     var lb_box_f = document.getElementsByClassName("lb_box")[0];
     lb_box_f.onmouseenter = function() {
