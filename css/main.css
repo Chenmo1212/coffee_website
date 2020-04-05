@@ -105,9 +105,9 @@
 */
 
 .item .title span {
-    width: 100px;
+    width: 150px;
     margin-left: -50px;
-    top: 30px;
+    top: 16px;
 }
 .products-group .row .img {
     width: 100%;
