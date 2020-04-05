@@ -36,16 +36,18 @@ a {
 }
 
 .lb_img {
-    width: 600%;
+    width: 500%;
     height: 100%;
     display: flex;
     padding: 0;
+    overflow: hidden;
 }
 
 .lb_li {
     list-style: none;
     display: block;
-    width: 100vw;
+    width: 100%;
+    max-width: 99vw;
     height: 100%;
     margin: 0;
 }
@@ -114,4 +116,8 @@ a {
 }
 .products-group .row .img {
     width: 100%;
+}
+
+.more-btn {
+    padding: 5px 10px;
 }

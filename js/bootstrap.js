@@ -286,7 +286,7 @@ if (typeof jQuery === 'undefined') {
       if (!($(e.target).is('input[type="radio"], input[type="checkbox"]'))) {
         // Prevent double click on radios, and the double selections (so cancellation) on checkboxes
         e.preventDefault()
-        // The target component still receive the focus
+        // The target components still receive the focus
         if ($btn.is('input,button')) $btn.trigger('focus')
         else $btn.find('input:visible,button:visible').first().trigger('focus')
       }
