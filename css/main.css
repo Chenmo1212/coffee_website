@@ -1,7 +1,10 @@
 /*
 * 基础
 */
-
+a {
+    color: #0f0f0f;
+    text-decoration: none;
+}
 
 /*
 *轮播
