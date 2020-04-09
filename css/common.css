@@ -67,12 +67,93 @@
 
 
 /* ====================================
-                 内外边距
+             边框，距离，阴影
  ====================================== */
 
 .border {
     border: 1px solid #0f0f0f;
 }
+
+.w-10 {
+    width: 100%;
+}
+
+.w-9 {
+    width: 90%;
+}
+
+.w-8 {
+    width: 80%;
+}
+
+.w-7 {
+    width: 70%;
+}
+
+.w-6 {
+    width: 60%;
+}
+
+.w-5 {
+    width: 50%;
+}
+
+.w-4 {
+    width: 40%;
+}
+
+.w-3 {
+    width: 30%;
+}
+
+.w-2 {
+    width: 20%;
+}
+
+.w-1 {
+    width: 10%;
+}
+
+.h-10 {
+    height: 100%;
+}
+
+.h-9 {
+    height: 90%;
+}
+
+.h-8 {
+    height: 80%;
+}
+
+.h-7 {
+    height: 70%;
+}
+
+.h-6 {
+    height: 60%;
+}
+
+.h-5 {
+    height: 50%;
+}
+
+.h-4 {
+    height: 40%;
+}
+
+.h-3 {
+    height: 30%;
+}
+
+.h-2 {
+    height: 20%;
+}
+
+.h-1 {
+    height: 10%;
+}
+
 
 /* ====================================
                  内外边距
@@ -420,9 +501,11 @@
 .pointer {
     cursor: pointer;
 }
+
 .text-indent {
     text-indent: 2em;
 }
+
 .text-xs {
     font-size: 10px;
 }
@@ -835,7 +918,6 @@
 .justify-around {
     justify-content: space-around;
 }
-
 
 
 /* ====================================

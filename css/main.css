@@ -121,3 +121,15 @@ a {
 .more-btn {
     padding: 5px 10px;
 }
+
+/*culture*/
+.culture-main .item {
+    height: 150px;
+}
+.text {
+    padding: 20px 10px;
+    background-color: rgb(68, 36, 11);
+}
+.text > .content {
+    line-height: 26px;
+}
