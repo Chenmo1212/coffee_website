@@ -114,6 +114,7 @@ a {
     margin-left: -50px;
     top: 16px;
 }
+
 .products-group .row .img {
     width: 100%;
 }
@@ -124,12 +125,26 @@ a {
 
 /*culture*/
 .culture-main .item {
-    height: 150px;
+    height: 180px;
 }
+
 .text {
     padding: 20px 10px;
     background-color: rgb(68, 36, 11);
 }
+
 .text > .content {
     line-height: 26px;
+}
+
+/*story*/
+.main-content .story-content {
+    border: 3px solid #fff;
+}
+
+.story .main-content .tit::first-letter {
+    font: 63px YouYuan;
+    font-weight: bolder;
+    float: left;
+    padding: 0 5px;
 }
