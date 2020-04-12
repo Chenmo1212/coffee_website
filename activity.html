@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>优惠及活动</title>
+  <link href="./css/bootstrap.min.css" rel="stylesheet">
+  <link href="./css/main.css" rel="stylesheet">
+  <link href="./css/common.css" rel="stylesheet">
+  <style media="screen">
+    .cover {
+      overflow: hidden;
+    }
+
+    .gray {
+      -webkit-filter: grayscale(100%) blur(5px);
+      -moz-filter: grayscale(100%) blur(5px);
+      -ms-filter: grayscale(100%) blur(5px);
+      -o-filter: grayscale(100%) blur(5px);
+      filter: grayscale(100%) blur(5px);
+    }
+
+    .bg-black {
+      background-color: #000;
+    }
+    .bg-yellow {
+      background-color: yellow;
+    }
+
+    .img-box {
+      max-height: 550px;
+      height: 100%;
+    }
+    .intro {
+      margin-top: 100px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- header -->
+  <div id="header"></div>
+
+  <!-- banner -->
+  <div class="cover relative" style="width: 100%;overflow: hidden;">
+    <div class="bg gray" style="max-height: 500px;">
+      <img src="./images/4.jpg" alt="" style="width: 100%;">
+    </div>
+    <div class="w-10 absolute top-0 left-0 h-10">
+      <div class="img-box container text-center h-100" style="">
+        <img src="./images/activity.png" alt="" class="inline-block" style="height: 100%;">
+      </div>
+    </div>
+  </div>
+
+  <!-- 导航 -->
+  <div class="well margin-0">
+    <div class="container">
+      <div class="title text-bold text-lg fl">
+        活动及优惠
+      </div>
+      <div class="item-group flex fr justify-end">
+        <div class="title padding-left-sm">会员计划-陌卡</div>
+        <div class="title padding-left-sm">最新活动</div>
+        <div class="title padding-left-sm">订阅电子讯息</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- activity -->
+  <div class="acti">
+    <div class="item row margin-0 padding-0 over-hidden" style="max-height: 700px;">
+      <div class="padding-0 col-md-2 hidden-sm hidden-md hidden-xs bg-black ">
+        <img src="./images/acti_left.png" alt="" style="height: 100%;">
+      </div>
+      <div class="padding-0 col-md-8 col-sm-12 .col-sm-offset-1">
+        <div class="img-box">
+          <img src="./images/item1.png" alt="" style="width: 100%;">
+        </div>
+        <p class="intro text-center text-bold text-lg">购买一杯太妃曲奇风味拿铁加浓邻芝士/经典咖啡提拉米苏/火鸡熏火腿烧烤酱三明治其中任意一款可享受套餐优惠</p>
+      </div>
+      <div class="padding-0 col-md-2 hidden-sm hidden-md hidden-xs bg-black over-hidden">
+        <img src="./images/acti_right.png" alt="" style="width: 100%;">
+      </div>
+    </div>
+
+    <div class="item row margin-0 padding-0" style="height: 700px;background-color: #1f1919;">
+      <div class="padding-0 col-md-8 col-sm-12 col-sm-offset-1 col-md-offset-2">
+        <div class="img-box">
+          <img src="./images/item2.png" alt="" style="width: 100%;">
+        </div>
+        <p class="intro text-center text-bold text-lg text-white">购买一杯浓郁芝士拿铁加蓝莓麦芬/巧克力曲奇/烤牛肉甜椒三明治其中任意一款可享受套餐优惠</p>
+      </div>
+    </div>
+
+    <div class="item row margin-0 padding-0" style="height: 700px;background-color: #fff;">
+      <div class="padding-0 col-md-8 col-sm-12 col-sm-offset-1 col-md-offset-2">
+        <div class="img-box">
+          <img src="./images/item3.png" alt="" style="width: 100%;">
+        </div>
+        <p class="intro text-center text-bold text-lg">购买一杯摩卡加全麦核桃麦芬/巧克力麦芬/燕麦曲奇其中任意一款可享受套餐优惠</p>
+      </div>
+    </div>
+    <div class="more text-center margin-tb-lg">
+      <span class="btn more-btn border">了解更多</span>
+    </div>
+
+  </div>
+
+  <!-- footer -->
+  <div id="footer"></div>
+
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <!-- <script src="./js/spider.js"></script> -->
+  <script>
+    $(document).ready(function() {
+      // 利用jq的load方法引入header
+      $("#header").load('./components/header.html');
+
+      // 利用jq的load方法引入footer
+      $("#footer").load('./components/footer.html');
+    });
+  </script>
+</body>
+
+</html>

@@ -1,87 +1,82 @@
-<!DOCTYPE html>
-<html lang="zh_CN">
-<head>
-    <meta charset="utf-8">
-    <title></title>
-    <style>
-        .nav li .active {
-            color: #aaa;
-        }
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/common.css" rel="stylesheet">
+<style>
+  .nav li .active {
+    color: #aaa;
+  }
 
-        .nav-tabs {
-            border-bottom: none;
-        }
+  .nav-tabs {
+    border-bottom: none;
+  }
 
-        .nav-tabs.nav-justified > .active > a, .nav-tabs.nav-justified > .active > a:focus, .nav-tabs.nav-justified > .active > a:hover {
-            border: none;
-        }
+  .nav-tabs.nav-justified>.active>a,
+  .nav-tabs.nav-justified>.active>a:focus,
+  .nav-tabs.nav-justified>.active>a:hover {
+    border: none;
+  }
 
-        a {
-            text-decoration: none;
-            color: #0f0f0f;
-        }
+  a {
+    text-decoration: none;
+    color: #0f0f0f;
+  }
 
-        .nav>li>a:focus, .nav>li>a:hover {
-            background: none;
-        }
+  .nav>li>a:focus,
+  .nav>li>a:hover {
+    background: none;
+  }
 
-        .nav>li>a:focus .row, .nav>li>a:hover .row {
-            color: #aaaaaa;
-        }
+  .nav>li>a:focus .row,
+  .nav>li>a:hover .row {
+    color: #aaaaaa;
+  }
 
-        #logo a img {
-            width: 45%;
-        }
+  #logo a img {
+    width: 45%;
+  }
 
-        @media (min-width: 768px) {
-            .nav-tabs.nav-justified > li > a {
-                border: none;
-            }
-        }
-    </style>
-</head>
-<body>
+  @media (min-width: 768px) {
+    .nav-tabs.nav-justified>li>a {
+      border: none;
+    }
+  }
+</style>
 <div class="header container padding-xs flex align-center">
-    <div class="col-md-5">
-        <ul class="nav nav-tabs nav-justified">
-            <li><a href="./index.html" class="active">
+  <div class="col-md-5">
+    <ul class="nav nav-tabs nav-justified">
+      <li><a href="./index.html" class="active">
                 <span class="block row text-lg text-bold nav-tit">首页</span>
                 <span class="block row text-grey nav-tit-en">Home Page</span>
             </a></li>
-            <li><a href="./new_product.html">
+      <li><a href="../new_product.html">
                 <span class="block row text-lg text-bold nav-tit">新品推荐</span>
                 <span class="block row text-grey nav-tit-en">New Products</span>
             </a></li>
-            <li><a href="#">
+      <li><a href="#">
                 <span class="block row text-lg text-bold nav-tit">活动及优惠</span>
                 <span class="block row text-grey nav-tit-en">Activities and preferential</span>
             </a></li>
-        </ul>
-    </div>
-    <div class="col-md-2 text-center" id="logo">
-        <a class="inline-block" href="#">
-            <img src="./images/logo.png" alt=""/></a>
-    </div>
-    <div class="col-md-5">
-        <ul class="nav nav-tabs nav-justified">
-            <li><a href="#">
+    </ul>
+  </div>
+  <div class="col-md-2 text-center" id="logo">
+    <a class="inline-block" href="#">
+            <img src="../images/logo.png" alt=""/></a>
+  </div>
+  <div class="col-md-5">
+    <ul class="nav nav-tabs nav-justified">
+      <li>
+        <a href="#">
                 <span class="block row text-lg text-bold nav-tit">咖啡文化</span>
                 <span class="block row text-grey nav-tit-en">Coffee culture</span>
-            </a></li>
-            <li><a href="#">
+        </a></li>
+      <li>
+        <a href="#">
                 <span class="block row text-lg text-bold nav-tit">品牌故事</span>
                 <span class="block row text-grey nav-tit-en">Brand Story</span>
             </a></li>
-            <li><a href="#">
+      <li><a href="#">
                 <span class="block row text-lg text-bold nav-tit">帮助中心</span>
                 <span class="block row text-grey nav-tit-en">Help Center</span>
             </a></li>
-        </ul>
-    </div>
+    </ul>
+  </div>
 </div>
-</body>
-</html>
-
-
-
-

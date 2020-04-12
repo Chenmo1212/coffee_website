@@ -927,3 +927,6 @@
 .img-round {
     border-radius: 50%;
 }
+.over-hidden {
+  overflow: hidden;
+}

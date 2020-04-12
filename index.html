@@ -2,328 +2,327 @@
 <html lang="zh-CN">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
-    <title>Bootstrap 101 Template</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+  <title>Bootstrap 101 Template</title>
 
-    <!-- Bootstrap -->
-    <link href="./css/bootstrap.min.css" rel="stylesheet">
-    <link href="./css/main.css" rel="stylesheet">
-    <link href="./css/common.css" rel="stylesheet">
+  <!-- Bootstrap -->
+  <link href="./css/bootstrap.min.css" rel="stylesheet">
+  <link href="./css/main.css" rel="stylesheet">
+  <link href="./css/common.css" rel="stylesheet">
 </head>
 
 <body>
-<!--header-->
-<div id="header"></div>
+  <!--header-->
+  <script src="./js/include.js"></script>
+  <include src="./components/header.html"></include>
+  <!-- <div id="header"></div> -->
+  <!-- <iframe src="./components/header.html" width="100%"; height="94px" frameborder="0" scrolling="no" name="headFrame"></iframe> -->
 
-<!--spider-->
-<div id="spider" class="lb_box">
+  <!--spider-->
+  <div id="spider" class="lb_box">
     <div class="lb_imgbox">
-        <div class="lb_imgleft">
-            <ul class="lb_img">
-                <li class="lb_li"><a href="#"><img class="img" src="./images/1.jpg" alt=""></a></li>
-                <li class="lb_li"><a href="#"><img class="img" src="./images/2.jpg" alt=""></a></li>
-                <li class="lb_li"><a href="#"><img class="img" src="./images/3.jpg" alt=""></a></li>
-                <li class="lb_li"><a href="#"><img class="img" src="./images/4.jpg" alt=""></a></li>
-                <li class="lb_li"><a href="#"><img class="img" src="./images/1.jpg" alt=""></a></li>
-            </ul>
-        </div>
-        <div class="lb_point">
-            <ol id='test' class="li_ol">
-                <li class="lb_olli pointer"></li>
-                <li class="lb_olli pointer"></li>
-                <li class="lb_olli pointer"></li>
-                <li class="lb_olli pointer"></li>
-            </ol>
-        </div>
-        <div id="lb_lbtn" class="lb_btn lb_btnl flex align-center justify-center pointer"><span
+      <div class="lb_imgleft">
+        <ul class="lb_img">
+          <li class="lb_li"><a href="#"><img class="img" src="./images/1.jpg" alt=""></a></li>
+          <li class="lb_li"><a href="#"><img class="img" src="./images/2.jpg" alt=""></a></li>
+          <li class="lb_li"><a href="#"><img class="img" src="./images/3.jpg" alt=""></a></li>
+          <li class="lb_li"><a href="#"><img class="img" src="./images/4.jpg" alt=""></a></li>
+          <li class="lb_li"><a href="#"><img class="img" src="./images/1.jpg" alt=""></a></li>
+        </ul>
+      </div>
+      <div class="lb_point">
+        <ol id='test' class="li_ol">
+          <li class="lb_olli pointer"></li>
+          <li class="lb_olli pointer"></li>
+          <li class="lb_olli pointer"></li>
+          <li class="lb_olli pointer"></li>
+        </ol>
+      </div>
+      <div id="lb_lbtn" class="lb_btn lb_btnl flex align-center justify-center pointer"><span
                 class="glyphicon glyphicon-menu-left text-white text-sl"></span></div>
-        <div id="lb_rbtn" class="lb_btn lb_btnr flex align-center justify-center pointer"><span
+      <div id="lb_rbtn" class="lb_btn lb_btnr flex align-center justify-center pointer"><span
                 class="glyphicon glyphicon-menu-right text-white text-sl"></span></div>
     </div>
-</div>
+  </div>
 
-<!--main-->
-<!--系列美味-->
-<div class="container margin-bottom-lg">
+  <!--main-->
+  <!--系列美味-->
+  <div class="container margin-bottom-lg">
     <div class="item item1 margin-top-sm">
-        <div class="title text-center relative">
-            <img class="inline-block" src="./images/tit-main1.png" height="auto" width="300" alt=""/>
-            <span class="absolute text-xxl text-bold left-50 inline-block"
-                  style="width: 200px;top: 25px;">陌尘的系列美味</span>
-        </div>
-        <div class="products-group row">
-            <div class="col-sm-4">
-                <div class="row padding-tb-sm">
-                    <div class="col-sm-10 col-sm-offset-1">
-                        <img class="img img-round" src="images/product2.png" alt=""/>
-                    </div>
-                </div>
-                <div class="row padding-lr">
-                    <div class="tit text-xl text-bold text-center">陌尘手调咖啡系列</div>
-                    <div class="desc">
-                        <p class="text-indent">Pacific
-                            Coffee用心推广咖啡文化，于非洲，亚洲，南美洲和夏威夷搜罗最优质的咖啡豆。收成之后，经由我们经验丰富的烘焙师认真处理，每种咖啡豆的独特口感都将完美发挥。</p>
-                        <p class="text-indent">手调咖啡系列饮品萃取咖啡豆精华，用心调利，将咖啡的极数美味浓缩于完美一杯，为您奉上。</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="row padding-tb-sm">
-                    <div class="col-sm-10 col-sm-offset-1">
-                        <img class="img img-round" src="images/product3.png" alt=""/>
-                    </div>
-                </div>
-                <div class="row padding-lr">
-                    <div class="tit text-xl text-bold text-center">陌尘精致点心系列</div>
-                    <div class="desc">
-                        <p class="text-indent">Pacific
-                            Coffee全部选用进口原料，聘请专职点心师，只为您在小憩时，为您奉上美味点心，搭配不同的手调咖啡饮品，层次丰富，令人流连忘返。</p>
-                        <p class="text-indent"> 不得不说，在这个节奏愈快的都市生活中，留出点心时间，去Pacific Coffee物劳自己，很有必要。</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="row padding-tb-sm">
-                    <div class="col-sm-10 col-sm-offset-1">
-                        <img class="img img-round" src="images/product4.png" alt=""/>
-                    </div>
-                </div>
-                <div class="row padding-lr">
-                    <div class="tit text-xl text-bold text-center">陌尘节日礼品系列</div>
-                    <div class="desc">
-                        <p class="text-indent">Pacific
-                            Coffee在每个不同节日都准备了精致美味上档次的小礼品，您不仅可以从中感受时令美味，节日气氛，也一定愿意将之与您的亲朋好友一同分享。</p>
-                        <p class="text-indent">充满创意与品味的Pacific Coffee节日礼品系列，让您每个传统节日都充满新意。</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="more text-center">
-            <span class="btn more-btn border">了解更多</span>
-        </div>
-    </div>
-</div>
-
-<!--最新活动及优惠-->
-<div class="ad">
-    <div class="title text-center relative">
-        <img class="inline-block" src="./images/tit-main2.png" height="auto" width="300" alt=""/>
+      <div class="title text-center relative">
+        <img class="inline-block" src="./images/tit-main1.png" height="auto" width="300" alt=""/>
         <span class="absolute text-xxl text-bold left-50 inline-block"
+                  style="width: 200px;top: 25px;">陌尘的系列美味</span>
+      </div>
+      <div class="products-group row">
+        <div class="col-sm-4">
+          <div class="row padding-tb-sm">
+            <div class="col-sm-10 col-sm-offset-1">
+              <img class="img img-round" src="images/product2.png" alt=""/>
+                    </div>
+          </div>
+          <div class="row padding-lr">
+            <div class="tit text-xl text-bold text-center">陌尘手调咖啡系列</div>
+            <div class="desc">
+              <p class="text-indent">Pacific
+                Coffee用心推广咖啡文化，于非洲，亚洲，南美洲和夏威夷搜罗最优质的咖啡豆。收成之后，经由我们经验丰富的烘焙师认真处理，每种咖啡豆的独特口感都将完美发挥。</p>
+              <p class="text-indent">手调咖啡系列饮品萃取咖啡豆精华，用心调利，将咖啡的极数美味浓缩于完美一杯，为您奉上。</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="row padding-tb-sm">
+            <div class="col-sm-10 col-sm-offset-1">
+              <img class="img img-round" src="images/product3.png" alt=""/>
+                    </div>
+          </div>
+          <div class="row padding-lr">
+            <div class="tit text-xl text-bold text-center">陌尘精致点心系列</div>
+            <div class="desc">
+              <p class="text-indent">Pacific
+                Coffee全部选用进口原料，聘请专职点心师，只为您在小憩时，为您奉上美味点心，搭配不同的手调咖啡饮品，层次丰富，令人流连忘返。</p>
+              <p class="text-indent"> 不得不说，在这个节奏愈快的都市生活中，留出点心时间，去Pacific Coffee物劳自己，很有必要。</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="row padding-tb-sm">
+            <div class="col-sm-10 col-sm-offset-1">
+              <img class="img img-round" src="images/product4.png" alt=""/>
+                    </div>
+          </div>
+          <div class="row padding-lr">
+            <div class="tit text-xl text-bold text-center">陌尘节日礼品系列</div>
+            <div class="desc">
+              <p class="text-indent">Pacific
+                Coffee在每个不同节日都准备了精致美味上档次的小礼品，您不仅可以从中感受时令美味，节日气氛，也一定愿意将之与您的亲朋好友一同分享。</p>
+              <p class="text-indent">充满创意与品味的Pacific Coffee节日礼品系列，让您每个传统节日都充满新意。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="more text-center">
+        <span class="btn more-btn border">了解更多</span>
+      </div>
+    </div>
+  </div>
+
+  <!--最新活动及优惠-->
+  <div class="ad">
+    <div class="title text-center relative">
+      <img class="inline-block" src="./images/tit-main2.png" height="auto" width="300" alt=""/>
+      <span class="absolute text-xxl text-bold left-50 inline-block"
               style="width: 200px;top: 25px; margin-left: -50px;">最新活动及优惠</span>
     </div>
     <a href="#"><img src="images/ad-main.png" width="100%" alt=""/></a>
-</div>
-<div class="container margin-bottom-lg">
+  </div>
+  <div class="container margin-bottom-lg">
     <div class="item item1 margin-top-sm">
-        <div class="row">
-            <div class="col-sm-6 col-md-6">
-                <div class="thumbnail" style="border:none;">
-                    <img src="./images/ad1.png" alt="...">
-                    <div class="caption">
-                        <div class="text-lg text-bold text-center">桂花飘香，与知心人共饮</div>
-                        <p class="text-indent padding-lr-xl">
-                            桂花是秋天的味道，那推致的芳香徐徐飘散，浓郁却不张扬，让人感到精神舒畅，轻松自然，如同与知己好友在一起的感觉，不用特意去寻找话题，费力去思考说辞，可以天马行空，侃侃而谈，就算静静坐着也不会感到姑尬。</p>
-                        <p class="text-indent padding-lr-xl">Pacific Coffee今秋推出三款桂花系列饮品，特限时以优惠价格，邀您与相知的人共饮：</p>
-                    </div>
-                    <div class="price padding-top-sm padding-lr-xl">
-                        <p><a href="#">咖码素娜桂花蜜糖拿铁...........................33元/标杯36元/大杯39元/特大杯</a></p>
-                        <p><a href="#">咖玛素娜桂花拿铁..................................33元/标杯36元/大杯39元/特大杯</a></p>
-                        <p><a href="#">桂花蜜糖红茶拿铁..................................33元/标杯36元/大杯39元/特大杯</a></p>
-                    </div>
-                </div>
+      <div class="row">
+        <div class="col-sm-6 col-md-6">
+          <div class="thumbnail" style="border:none;">
+            <img src="./images/ad1.png" alt="...">
+            <div class="caption">
+              <div class="text-lg text-bold text-center">桂花飘香，与知心人共饮</div>
+              <p class="text-indent padding-lr-xl">
+                桂花是秋天的味道，那推致的芳香徐徐飘散，浓郁却不张扬，让人感到精神舒畅，轻松自然，如同与知己好友在一起的感觉，不用特意去寻找话题，费力去思考说辞，可以天马行空，侃侃而谈，就算静静坐着也不会感到姑尬。</p>
+              <p class="text-indent padding-lr-xl">Pacific Coffee今秋推出三款桂花系列饮品，特限时以优惠价格，邀您与相知的人共饮：</p>
             </div>
-            <div class="col-sm-6 col-md-6">
-                <div class="thumbnail" style="border:none;">
-                    <img src="./images/ad2.png" alt="...">
-                    <div class="caption padding-lr-lg">
-                        <div class="text-lg text-bold text-center">桂花飘香，与知心人共饮</div>
-                        <p class="text-indent padding-lr-lg">Pacific Coffee限时推出华夫饼搭配任意手调咖啡饮品套餐，每套仅需58元！</p>
-                        <p class="text-indent padding-lr-lg">
-                            松软的香烤华夫饼，配上甜美冰淇淋球，点缀新鲜水果，光是想想就叫人食指大动！不仅如此，我们还全新推出多款口味华夫饼参与限时折扣，邀您享用：
-                        </p>
-                        </p>
-                    </div>
-                    <div class="price padding-top-sm padding-lr-lg">
-                        <p>
-                            <a href="#">香蕉巧克力冰淇淋华夫饼...................................................................38元</a>
-                        </p>
-                        <p>
-                            <a href="#">草萄蓝莓双萄鲜果华夫饼...................................................................42元</a>
-                        </p>
-                        <p>
-                            <a href="#">布朗尼炫酷冰淇淋华夫饼...................................................................38元</a>
-                        </p>
-                        <p>
-                            <a href="#">经典原味烤肠鲜蔬华夫饼...................................................................38元</a>
-                        </p>
-                    </div>
-                </div>
+            <div class="price padding-top-sm padding-lr-xl">
+              <p><a href="#">咖码素娜桂花蜜糖拿铁...........................33元/标杯36元/大杯39元/特大杯</a></p>
+              <p><a href="#">咖玛素娜桂花拿铁..................................33元/标杯36元/大杯39元/特大杯</a></p>
+              <p><a href="#">桂花蜜糖红茶拿铁..................................33元/标杯36元/大杯39元/特大杯</a></p>
             </div>
+          </div>
         </div>
-        <div class="more text-center">
-            <span class="btn more-btn border">了解更多</span>
+        <div class="col-sm-6 col-md-6">
+          <div class="thumbnail" style="border:none;">
+            <img src="./images/ad2.png" alt="...">
+            <div class="caption padding-lr-lg">
+              <div class="text-lg text-bold text-center">桂花飘香，与知心人共饮</div>
+              <p class="text-indent padding-lr-lg">Pacific Coffee限时推出华夫饼搭配任意手调咖啡饮品套餐，每套仅需58元！</p>
+              <p class="text-indent padding-lr-lg">
+                松软的香烤华夫饼，配上甜美冰淇淋球，点缀新鲜水果，光是想想就叫人食指大动！不仅如此，我们还全新推出多款口味华夫饼参与限时折扣，邀您享用：
+              </p>
+              </p>
+            </div>
+            <div class="price padding-top-sm padding-lr-lg">
+              <p>
+                <a href="#">香蕉巧克力冰淇淋华夫饼...................................................................38元</a>
+              </p>
+              <p>
+                <a href="#">草萄蓝莓双萄鲜果华夫饼...................................................................42元</a>
+              </p>
+              <p>
+                <a href="#">布朗尼炫酷冰淇淋华夫饼...................................................................38元</a>
+              </p>
+              <p>
+                <a href="#">经典原味烤肠鲜蔬华夫饼...................................................................38元</a>
+              </p>
+            </div>
+          </div>
         </div>
+      </div>
+      <div class="more text-center">
+        <span class="btn more-btn border">了解更多</span>
+      </div>
     </div>
-</div>
+  </div>
 
 
-<!--咖啡文化-->
-<div class="culture w-10 bg-white relative padding-top-lg" style="height: 900px;">
+  <!--咖啡文化-->
+  <div class="culture w-10 bg-white relative padding-top-lg" style="height: 900px;">
     <div class="bean1 absolute right-0"><img src="images/bean1.png" height="492" width="587" alt=""/></div>
     <div class="bean2 absolute left-0 bottom-0"><img src="images/bean2.png" alt=""/></div>
     <div class="title text-center relative">
-        <img class="inline-block" src="./images/tit_culture.png" height="auto" width="300" alt=""/>
-        <span class="absolute text-xxl text-bold left-50 inline-block"
+      <img class="inline-block" src="./images/tit_culture.png" height="auto" width="300" alt=""/>
+      <span class="absolute text-xxl text-bold left-50 inline-block"
               style="width: 200px;top: 25px; margin-left: -50px;">陌尘的咖啡文化</span>
     </div>
     <div class="culture-main padding-tb-lg">
-        <div class="container">
-            <div class="row item">
-                <div class="left-text text col-md-5 col-md-offset-1" style="height: 180px;">
-                    <div class="tit text-lg text-bold text-white text-center padding-bottom-xs">关于“拿咖啡杯"</div>
-                    <div class="content text-white text-indent">
-                        在餐后饮用的咖啡，一般都是用袖珍型的杯子盛出。这种杯子的杯耳较小，手指无法穿出去。但即使用较大的杯子，也不要用手指穿过杯耳再端杯子。咖啡杯的正确拿法，应是拇指和食指捏住杯把儿再将杯子端起。
-                    </div>
-                </div>
-                <div class="right-img col-md-5 padding-0 h-10">
-                    <img src="images/cu_1.png" class="h-10" alt=""/></div>
+      <div class="container">
+        <div class="row item">
+          <div class="left-text text col-md-5 col-md-offset-1" style="height: 180px;">
+            <div class="tit text-lg text-bold text-white text-center padding-bottom-xs">关于“拿咖啡杯"</div>
+            <div class="content text-white text-indent">
+              在餐后饮用的咖啡，一般都是用袖珍型的杯子盛出。这种杯子的杯耳较小，手指无法穿出去。但即使用较大的杯子，也不要用手指穿过杯耳再端杯子。咖啡杯的正确拿法，应是拇指和食指捏住杯把儿再将杯子端起。
             </div>
-            <div class="row item flex" style="height: 180px;">
-                <div class="right-img padding-0 h-10" style="margin-left: 25.1%;">
-                    <img src="images/cu_2.png" class="h-10" alt=""/></div>
-                <div class="left-text text col-md-5">
-                    <div class="tit text-lg text-bold text-white text-center padding-bottom-xs">关于“咖啡加糖"</div>
-                    <div class="content text-white text-indent">
-                        给咖啡加糖时，砂糖可用咖啡匙舀取，直接加入杯内；也可先用糖夹子把方糖夹在咖啡碟的近身一侧，再用咖啡匙把方糖加在杯子里。如果直接用糖夹子或手把方糖放入杯内，有时可能会使咖啡溅出，从而弄脏衣服或台布。
-                    </div>
-                </div>
-            </div>
-            <div class="row item" style="height: 180px;">
-                <div class="left-text text col-md-5 col-md-offset-1" style="height: 180px;">
-                    <div class="tit text-lg text-bold text-white text-center padding-bottom-xs">关于“杯碟使用”</div>
-                    <div class="content text-white text-indent">
-                        盛放咖啡的杯碟都是特制的。它们应当放在饮用者的正面或者右侧，杯耳应指向右方。饮咖啡时，可以用右手拿着咖啡的杯耳，左手轻轻托着咖啡碟，慢慢地移向嘴边轻喝。不宜满把握杯、大口吞咽，也不宜俯首去就咖啡杯。添加咖啡时，不要把咖啡杯从碟中拿起来。
-                    </div>
-                </div>
-                <div class="right-img col-md-5 padding-0 h-10">
-                    <img src="images/cu_3.png" class="h-10" alt=""/></div>
-            </div>
-            <div class="row item flex">
-                <div class="right-img padding-0 h-10" style="margin-left: 25.1%;">
-                    <img src="images/cu_4.png" class="h-10" alt=""/></div>
-                <div class="left-text text col-md-5">
-                    <div class="tit text-lg text-bold text-white text-center padding-bottom-xs">关于“拿咖啡杯"</div>
-                    <div class="content text-white text-indent">
-                        在餐后饮用的咖啡，一般都是用袖珍型的杯子盛出。这种杯子的杯耳较小，手指无法穿出去。但即使用较大的杯子，也不要用手指穿过杯耳再端杯子。咖啡杯的正确拿法，应是拇指和食指捏住杯把儿再将杯子端起。
-                    </div>
-                </div>
-            </div>
-            <div class="more text-center padding-top-lg">
-                <span class="btn more-btn border">了解更多</span>
-            </div>
+          </div>
+          <div class="right-img col-md-5 padding-0 h-10">
+            <img src="images/cu_1.png" class="h-10" alt=""/></div>
         </div>
+        <div class="row item flex" style="height: 180px;">
+          <div class="right-img padding-0 h-10" style="margin-left: 25.1%;">
+            <img src="images/cu_2.png" class="h-10" alt=""/></div>
+          <div class="left-text text col-md-5">
+            <div class="tit text-lg text-bold text-white text-center padding-bottom-xs">关于“咖啡加糖"</div>
+            <div class="content text-white text-indent">
+              给咖啡加糖时，砂糖可用咖啡匙舀取，直接加入杯内；也可先用糖夹子把方糖夹在咖啡碟的近身一侧，再用咖啡匙把方糖加在杯子里。如果直接用糖夹子或手把方糖放入杯内，有时可能会使咖啡溅出，从而弄脏衣服或台布。
+            </div>
+          </div>
+        </div>
+        <div class="row item" style="height: 180px;">
+          <div class="left-text text col-md-5 col-md-offset-1" style="height: 180px;">
+            <div class="tit text-lg text-bold text-white text-center padding-bottom-xs">关于“杯碟使用”</div>
+            <div class="content text-white text-indent">
+              盛放咖啡的杯碟都是特制的。它们应当放在饮用者的正面或者右侧，杯耳应指向右方。饮咖啡时，可以用右手拿着咖啡的杯耳，左手轻轻托着咖啡碟，慢慢地移向嘴边轻喝。不宜满把握杯、大口吞咽，也不宜俯首去就咖啡杯。添加咖啡时，不要把咖啡杯从碟中拿起来。
+            </div>
+          </div>
+          <div class="right-img col-md-5 padding-0 h-10">
+            <img src="images/cu_3.png" class="h-10" alt=""/></div>
+        </div>
+        <div class="row item flex">
+          <div class="right-img padding-0 h-10" style="margin-left: 25.1%;">
+            <img src="images/cu_4.png" class="h-10" alt=""/></div>
+          <div class="left-text text col-md-5">
+            <div class="tit text-lg text-bold text-white text-center padding-bottom-xs">关于“拿咖啡杯"</div>
+            <div class="content text-white text-indent">
+              在餐后饮用的咖啡，一般都是用袖珍型的杯子盛出。这种杯子的杯耳较小，手指无法穿出去。但即使用较大的杯子，也不要用手指穿过杯耳再端杯子。咖啡杯的正确拿法，应是拇指和食指捏住杯把儿再将杯子端起。
+            </div>
+          </div>
+        </div>
+        <div class="more text-center padding-top-lg">
+          <span class="btn more-btn border">了解更多</span>
+        </div>
+      </div>
     </div>
-</div>
+  </div>
 
-<!--品牌故事-->
-<div class="story w-10 relative padding-top-xl">
+  <!--品牌故事-->
+  <div class="story w-10 relative padding-top-xl">
     <div class="bg w-10"><img src="images/main_story_bg.jpg" alt="" width="100%"/></div>
     <div class="absolute top-0 left-0 w-10">
-        <div class="title text-center relative w-10">
-            <img class="inline-block" src="./images/tit_story.png" height="auto" width="300" alt=""/>
-            <span class="absolute text-xxl text-bold left-50 inline-block"
+      <div class="title text-center relative w-10">
+        <img class="inline-block" src="./images/tit_story.png" height="auto" width="300" alt=""/>
+        <span class="absolute text-xxl text-bold left-50 inline-block"
                   style="width: 200px;top: 25px; margin-left: -50px;">陌尘的品牌故事</span>
+      </div>
+      <div class="main-content container relative text-white">
+        <div class="absolute padding-tb-lg padding-lr story-content col-md-3" style="background-color:#1a0c0b;">
+          <div class="tit text-lg text-bold padding-tb-xxs">1MoChen Coffee品牌历史</div>
+          <p class="content" style="color: #e4e4e4; line-height: 24px;">
+            太平洋咖啡于1992年在香港诞生，2010年被华润创业收购，成为其旗下唯一咖啡连锁品牌。2011年，太平洋咖啡正式进入中国内地市场，以好咖啡、好服务、好环境为广大中国顾客的生活注入静谣和温馨。</p>
         </div>
-        <div class="main-content container relative text-white">
-            <div class="absolute padding-tb-lg padding-lr story-content col-md-3" style="background-color:#1a0c0b;">
-                <div class="tit text-lg text-bold padding-tb-xxs">1MoChen Coffee品牌历史</div>
-                <p class="content" style="color: #e4e4e4; line-height: 24px;">
-                    太平洋咖啡于1992年在香港诞生，2010年被华润创业收购，成为其旗下唯一咖啡连锁品牌。2011年，太平洋咖啡正式进入中国内地市场，以好咖啡、好服务、好环境为广大中国顾客的生活注入静谣和温馨。</p>
-            </div>
-            <div class="absolute padding-tb-lg padding-lr story-content col-md-5"
-                 style="background-color:#1a0c0b; right: 0;top: 170px;">
-                <div class="tit text-lg text-bold padding-tb-xxs">2MoChen Coffee 品牌愿景</div>
-                <p class="content" style="color: #e4e4e4; line-height: 24px;">
-                    陌尘咖啡以罐卑感恩、卓越品质、诚信务实、创意无限作为品牌的核心价估，力求发展成为中国咖啡消费者最喜爱的、最具影响力的咖啡连锁品牌。主张中西文化交融且带有浓浓书卷气息的太平洋咖啡自进入内地以来，受到越来越多顾客的喜爱和称赞。太平洋咖啡也将与更多追求品味的有识之士一同分享咖啡殿堂里的一杯、一念、一世界.……</p>
-            </div>
-            <div class="absolute padding-tb-lg padding-lr story-content"
-                 style="background-color:#1a0c0b; top: 350px; width: 30%; left: 5%;">
-                <div class="tit text-lg text-bold padding-tb-xxs">3MoChen Coffee 企业责任</div>
-                <div class="content" style="color: #e4e4e4; line-height: 24px;">
-                    <p>Pacific Coffee乘承回馈社会的精神，积极为社会作出贡献，除了参与多个慈善及志愿团体举办的各类社会活动，同时亦关注环境保护。</p>
-                    <p>我们致力于不同层面支持多个慈善机构，但主要协助伤残人士、社会较不幸的儿童及环保团体。</p>
-                    <p>多年来，曾与我们合作的慈善团体多不胜数，包括中国妇女发展基金会、中国扶贫基金会、苗成长希望基金会、护苗基金、苗醒行动、大自然保护协会、绿色和平、世界自然基金会香港分会及宣明会等。</p>
-                    <p>2016年，太平洋咖啡与中国妇女发展基金会联合发起“点酒太平洋”项目，旨在针对边远地区农村寄宿制学校饮水不安全问题，逐步改善和缓解农村中小学校饮水不安全的现状。</p>
-                </div>
-            </div>
-            <div class="absolute padding-tb-lg padding-lr story-content col-md-4"
-                 style="background-color:#1a0c0b; right: 10%;top: 500px;">
-                <div class="tit text-lg text-bold padding-tb-xxs">4MoChen Coffee 专业员工</div>
-                <div class="content" style="color: #e4e4e4; line-height: 24px;">
-                    <p>MoChen Coffee的成功有赖一群出色的前线员工。顾客会发现我们的员工正如我们的咖啡一样，服务质素极高而充满个性，全都经过悉心的训练以达到一级的服务水平。</p>
-                    <p>MoChen Coffee着重不同职级的雇员在职培训，协助强化职员的服务水平和建立与客人沟通的信心</p>
-                </div>
-            </div>
+        <div class="absolute padding-tb-lg padding-lr story-content col-md-5" style="background-color:#1a0c0b; right: 0;top: 170px;">
+          <div class="tit text-lg text-bold padding-tb-xxs">2MoChen Coffee 品牌愿景</div>
+          <p class="content" style="color: #e4e4e4; line-height: 24px;">
+            陌尘咖啡以罐卑感恩、卓越品质、诚信务实、创意无限作为品牌的核心价估，力求发展成为中国咖啡消费者最喜爱的、最具影响力的咖啡连锁品牌。主张中西文化交融且带有浓浓书卷气息的太平洋咖啡自进入内地以来，受到越来越多顾客的喜爱和称赞。太平洋咖啡也将与更多追求品味的有识之士一同分享咖啡殿堂里的一杯、一念、一世界.……</p>
+        </div>
+        <div class="absolute padding-tb-lg padding-lr story-content" style="background-color:#1a0c0b; top: 350px; width: 30%; left: 5%;">
+          <div class="tit text-lg text-bold padding-tb-xxs">3MoChen Coffee 企业责任</div>
+          <div class="content" style="color: #e4e4e4; line-height: 24px;">
+            <p>Pacific Coffee乘承回馈社会的精神，积极为社会作出贡献，除了参与多个慈善及志愿团体举办的各类社会活动，同时亦关注环境保护。</p>
+            <p>我们致力于不同层面支持多个慈善机构，但主要协助伤残人士、社会较不幸的儿童及环保团体。</p>
+            <p>多年来，曾与我们合作的慈善团体多不胜数，包括中国妇女发展基金会、中国扶贫基金会、苗成长希望基金会、护苗基金、苗醒行动、大自然保护协会、绿色和平、世界自然基金会香港分会及宣明会等。</p>
+            <p>2016年，太平洋咖啡与中国妇女发展基金会联合发起“点酒太平洋”项目，旨在针对边远地区农村寄宿制学校饮水不安全问题，逐步改善和缓解农村中小学校饮水不安全的现状。</p>
+          </div>
+        </div>
+        <div class="absolute padding-tb-lg padding-lr story-content col-md-4" style="background-color:#1a0c0b; right: 10%;top: 500px;">
+          <div class="tit text-lg text-bold padding-tb-xxs">4MoChen Coffee 专业员工</div>
+          <div class="content" style="color: #e4e4e4; line-height: 24px;">
+            <p>MoChen Coffee的成功有赖一群出色的前线员工。顾客会发现我们的员工正如我们的咖啡一样，服务质素极高而充满个性，全都经过悉心的训练以达到一级的服务水平。</p>
+            <p>MoChen Coffee着重不同职级的雇员在职培训，协助强化职员的服务水平和建立与客人沟通的信心</p>
+          </div>
+        </div>
 
-        </div>
+      </div>
     </div>
     <div class="more text-center absolute" style="bottom:200px; right: 20%;">
-        <span class="btn more-btn border text-white" style="border: 1px solid #fff;">了解更多</span>
+      <span class="btn more-btn border text-white" style="border: 1px solid #fff;">了解更多</span>
     </div>
-</div>
+  </div>
 
-<!--帮助中心-->
-<div class="container help-center margin-tb-lg">
+  <!--帮助中心-->
+  <div class="container help-center margin-tb-lg">
     <div class="title text-center relative">
-        <img class="inline-block" src="./images/tit_culture.png" height="auto" width="300" alt=""/>
-        <span class="absolute text-xxl text-bold left-50 inline-block"
+      <img class="inline-block" src="./images/tit_culture.png" height="auto" width="300" alt=""/>
+      <span class="absolute text-xxl text-bold left-50 inline-block"
               style="width: 200px;top: 25px; margin-left: -50px;">陌尘的咖啡文化</span>
     </div>
     <div class="row margin-tb-xl">
-        <div class="item col-md-6">
-            <div class="col-md-6 padding-0">
-                <img src="images/help1.png" class="w-10" alt=""/></div>
-            <div class="col-md-6 padding-tb-lg">
-                <div class="tit text-bold text-xxl text-center">分店详情</div>
-                <div class="content text-lg text-indent" style="line-height: 30px;">分店遍布中国内地、香港、新加坡、澳门及马来西亚的Pacific Coffee，将Perfect Cup的咖啡文化不断拓展。可于以下地图点选阁下身处的位置，搜索邻近的分店数据或点击这里检视所有的分店地址。</div>
-                <div class="more text-center margin-top">
-                    <span class="btn more-btn border">了解更多</span>
-                </div>
-            </div>
+      <div class="item col-md-6">
+        <div class="col-md-6 padding-0">
+          <img src="images/help1.png" class="w-10" alt=""/></div>
+        <div class="col-md-6 padding-tb-lg">
+          <div class="tit text-bold text-xxl text-center">分店详情</div>
+          <div class="content text-lg text-indent" style="line-height: 30px;">分店遍布中国内地、香港、新加坡、澳门及马来西亚的Pacific Coffee，将Perfect Cup的咖啡文化不断拓展。可于以下地图点选阁下身处的位置，搜索邻近的分店数据或点击这里检视所有的分店地址。</div>
+          <div class="more text-center margin-top">
+            <span class="btn more-btn border">了解更多</span>
+          </div>
         </div>
-        <div class="item col-md-6">
-            <div class="col-md-6 padding-0">
-                <img src="images/help2.png" class="w-10" alt=""/></div>
-            <div class="col-md-6 padding-tb-lg">
-                <div class="tit text-bold text-xxl text-center">意见反馈</div>
-                <div class="content text-lg text-indent" style="line-height: 30px;">我们非常重视您的意见和建议，为了让您在Pacific Coffee的体验更完美，请将您的意见或者建议与我们分享，我们会致力为顾客提供最完美的咖啡体验</div>
-                <div class="more text-center margin-top">
-                    <span class="btn more-btn border">立即反馈</span>
-                </div>
-            </div>
+      </div>
+      <div class="item col-md-6">
+        <div class="col-md-6 padding-0">
+          <img src="images/help2.png" class="w-10" alt=""/></div>
+        <div class="col-md-6 padding-tb-lg">
+          <div class="tit text-bold text-xxl text-center">意见反馈</div>
+          <div class="content text-lg text-indent" style="line-height: 30px;">我们非常重视您的意见和建议，为了让您在Pacific Coffee的体验更完美，请将您的意见或者建议与我们分享，我们会致力为顾客提供最完美的咖啡体验</div>
+          <div class="more text-center margin-top">
+            <span class="btn more-btn border">立即反馈</span>
+          </div>
         </div>
+      </div>
     </div>
-</div>
+  </div>
 
-<!--footer-->
-<div id="footer"></div>
+  <!--footer-->
+  <!-- <div id="footer"></div> -->
+  <iframe src="./components/footer.html" width="100%"; height="240px" frameborder="0" scrolling="no" name="headFrame"></iframe>
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/spider.js"></script>
+  <script>
+    $(document).ready(function() {
+      // 利用jq的load方法引入header
+      $("#header").load('./components/header.html');
 
-<script src="./js/jquery.min.js"></script>
-<script src="./js/bootstrap.min.js"></script>
-<script src="./js/spider.js"></script>
-<script>
-
-    $(document).ready(function () {
-        // 利用jq的load方法引入header
-        $("#header").load('./components/header.html');
-
-        // 利用jq的load方法引入footer
-        $("#footer").load('./components/footer.html');
+      // 利用jq的load方法引入footer
+      $("#footer").load('./components/footer.html');
     });
-</script>
+  </script>
 </body>
 
 </html>
