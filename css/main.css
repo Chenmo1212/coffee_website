@@ -148,3 +148,102 @@ a {
     float: left;
     padding: 0 5px;
 }
+
+/*
+* activity
+*/
+
+.cover {
+    overflow: hidden;
+}
+
+.gray {
+    -webkit-filter: grayscale(100%) blur(5px);
+    -moz-filter: grayscale(100%) blur(5px);
+    -ms-filter: grayscale(100%) blur(5px);
+    -o-filter: grayscale(100%) blur(5px);
+    filter: grayscale(100%) blur(5px);
+}
+
+.bg-black {
+    background-color: #000;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+.img-box {
+    max-height: 550px;
+    height: 100%;
+}
+
+.item .intro {
+    margin-top: 100px;
+}
+
+/*
+* culture
+*/
+.step1 {
+    right: 200px;
+    top: 325px;
+}
+
+.step2 {
+    left: 130px;
+    top: 641px;
+}
+
+.step3 {
+    right: 170px;
+    top: 888px;
+}
+
+.bg-culture {
+    background-color: #1f1919;
+}
+
+.methods .title {
+    max-width: 1200px;
+}
+.why .reason-box .item {
+
+}
+
+.reason-box .item .pic-main {
+    padding: 0 20px;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.reason-box .item .pic-btn {
+    display: inline-block;
+    width: 20%;
+    border-radius: 50%;
+    left: 50%;
+    margin-left: -10%;
+    bottom: 18%;
+}
+
+
+
+@media (max-width: 992px) {
+    .methods .container h2 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .methods .container p {
+        line-height: 20px !important;
+    }
+
+    .reason-box .item .pic-btn {
+        bottom: 29%;
+    }
+
+    .life .coffee img {
+        width: 50%;
+        display: inline-block;
+    }
+}

@@ -74,6 +74,9 @@
     border: 1px solid #0f0f0f;
 }
 
+.border-white {
+    border: 1px solid #fff;
+}
 .w-10 {
     width: 100%;
 }
