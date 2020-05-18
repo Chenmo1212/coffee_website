@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>CSS3实现答题卡片抽取切换动画DEMO演示</title>
+    <link href="./css/main.css" rel="stylesheet">
+    <link href="./css/common.css" rel="stylesheet">
+    <link href="./css/bootstrap.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: rgba(0,0,0,0.7);
+        }
+
+        .bg-white {
+            background-color: #fff;
+        }
+
+        .shadow {
+            border-radius: 5px;
+            box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+
+<body>
+<div class="close relative w-10 text-right padding">
+    <a href="./comment.html">
+        <span class="glyphicon glyphicon-remove text-white"></span>
+    </a>
+</div>
+<div class="container">
+    <div id="answer" class="card_wrap over-hidden relative">
+        <!--Q1-->
+        <div class="card_cont card1 content whisper-content bg-white shadow">
+            <div class="card h-10 relative padding-top-sm cont margin-auto">
+
+                <div class="item padding-top-xs">
+                    <div class="whisper-title margin-bottom-sm">
+                        <div class="inline-block fl">
+                            <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
+                            <span class="hour margin-right-sm">12:25</span><span class="date">2018/06/08</span>
+                        </div>
+                        <div class="inline-block fr pointer">
+                            <a href="./comment.html">
+                                <span class="glyphicon glyphicon-remove-sign" aria-hidden="true"></span>
+                                <span class="date">退出</span>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="text-cont margin-bottom-sm">
+                        一直听说牛油果吃起来像肥皂、肥肉，虽然很难吃，但是价格却很贵，我还是想尝试一下。今天公司新到了新西兰牛油果，这是新西兰牛油果是第一次在中国上市，个头比普通牛油果大了一倍，被誉为“超牛果”。好奇心驱使我尝了一颗，第一次吃牛油果没有见识，切开牛油果费了好大劲，切成了这样。
+                    </p>
+                    <div class="img-box">
+                        <img alt="" src="./img/1.jpg">
+                    </div>
+                    <div class="op-list margin-top flex justify-between text-gray">
+                        <div class="like margin-right-sm pointer cf">
+                            <div class="inline-block fl">
+                                <span class="glyphicon glyphicon-thumbs-up"></span>
+                                <span>1200</span>
+                            </div>
+                        </div>
+                        <div class="change-card pointer">
+                            <div class="inline-block margin-left next">
+                                <span class="glyphicon glyphicon-menu-down"></span>
+                                <span>下一个</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Q2-->
+        <div class="card_cont card2 content whisper-content bg-white shadow">
+            <div class="card h-10 relative padding-top-sm cont margin-auto">
+                <div class="item padding-top-xs">
+                    <div class="whisper-title margin-bottom-sm">
+                        <div class="inline-block fl">
+                            <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
+                            <span class="hour margin-right-sm">12:25</span><span class="date">2018/06/08</span>
+                        </div>
+                        <div class="inline-block fr pointer">
+                            <a href="./comment.html">
+                                <span class="glyphicon glyphicon-remove-sign" aria-hidden="true"></span>
+                                <span class="date">退出</span>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="text-cont margin-bottom-sm">
+                        一直听说牛油果吃起来像肥皂、肥肉，虽然很难吃，但是价格却很贵，我还是想尝试一下。今天公司新到了新西兰牛油果，这是新西兰牛油果是第一次在中国上市，个头比普通牛油果大了一倍，被誉为“超牛果”。好奇心驱使我尝了一颗，第一次吃牛油果没有见识，切开牛油果费了好大劲，切成了这样。
+                    </p>
+                    <div class="img-box">
+                        <img alt="" src="./img/1.jpg">
+                    </div>
+                    <div class="op-list margin-top flex justify-between text-gray">
+                        <div class="like margin-right-sm pointer">
+                            <span class="glyphicon glyphicon-thumbs-up"></span>
+                            <span>1200</span>
+                        </div>
+                        <div class="change-card pointer">
+                            <div class="inline-block prev">
+                                <span class="glyphicon glyphicon-menu-up"></span>
+                                <span>上一个</span>
+                            </div>
+                            <div class="inline-block margin-left next">
+                                <span class="glyphicon glyphicon-menu-down"></span>
+                                <span>下一个</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Q3-->
+        <div class="card_cont card3 content whisper-content bg-white shadow">
+            <div class="card h-10 relative padding-top-sm cont margin-auto">
+
+                <div class="item padding-top-xs">
+                    <div class="whisper-title margin-bottom-sm">
+                        <div class="inline-block fl">
+                            <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
+                            <span class="hour margin-right-sm">12:25</span><span class="date">2018/06/08</span>
+                        </div>
+                        <div class="inline-block fr pointer">
+                            <a href="./comment.html">
+                                <span class="glyphicon glyphicon-remove-sign" aria-hidden="true"></span>
+                                <span class="date">退出</span>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="text-cont margin-bottom-sm">
+                        一直听说牛油果吃起来像肥皂、肥肉，虽然很难吃，但是价格却很贵，我还是想尝试一下。今天公司新到了新西兰牛油果，这是新西兰牛油果是第一次在中国上市，个头比普通牛油果大了一倍，被誉为“超牛果”。好奇心驱使我尝了一颗，第一次吃牛油果没有见识，切开牛油果费了好大劲，切成了这样。
+                    </p>
+                    <div class="img-box">
+                        <img alt="" src="./img/1.jpg">
+                    </div>
+                    <div class="op-list margin-top flex justify-between text-gray">
+                        <div class="like margin-right-sm pointer">
+                            <span class="glyphicon glyphicon-thumbs-up"></span>
+                            <span>1200</span>
+                        </div>
+                        <div class="change-card pointer">
+                            <div class="inline-block prev">
+                                <span class="glyphicon glyphicon-menu-up"></span>
+                                <span>上一个</span>
+                            </div>
+                            <div class="inline-block margin-left next">
+                                <span class="glyphicon glyphicon-menu-down"></span>
+                                <span>下一个</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Q4-->
+        <div class="card_cont card4 content whisper-content bg-white shadow">
+            <div class="card h-10 relative padding-top-sm cont margin-auto">
+
+                <div class="item padding-top-xs">
+                    <div class="whisper-title margin-bottom-sm">
+                        <div class="inline-block fl">
+                            <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
+                            <span class="hour margin-right-sm">12:25</span><span class="date">2018/06/08</span>
+                        </div>
+                        <div class="inline-block fr pointer">
+                            <a href="./comment.html">
+                                <span class="glyphicon glyphicon-remove-sign" aria-hidden="true"></span>
+                                <span class="date">退出</span>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="text-cont margin-bottom-sm">
+                        一直听说牛油果吃起来像肥皂、肥肉，虽然很难吃，但是价格却很贵，我还是想尝试一下。今天公司新到了新西兰牛油果，这是新西兰牛油果是第一次在中国上市，个头比普通牛油果大了一倍，被誉为“超牛果”。好奇心驱使我尝了一颗，第一次吃牛油果没有见识，切开牛油果费了好大劲，切成了这样。
+                    </p>
+                    <div class="img-box">
+                        <img alt="" src="./img/1.jpg">
+                    </div>
+                    <div class="op-list margin-top flex justify-between text-gray">
+                        <div class="like margin-right-sm pointer">
+                            <span class="glyphicon glyphicon-thumbs-up"></span>
+                            <span>1200</span>
+                        </div>
+                        <div class="change-card pointer">
+                            <div class="inline-block prev">
+                                <span class="glyphicon glyphicon-menu-up"></span>
+                                <span>上一个</span>
+                            </div>
+                            <div class="inline-block margin-left next">
+                                <span class="glyphicon glyphicon-menu-down"></span>
+                                <span>下一个</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Q5-->
+        <div class="card_cont card5 content whisper-content bg-white shadow">
+            <div class="card h-10 relative padding-top-sm cont margin-auto">
+
+                <div class="item padding-top-xs">
+                    <div class="whisper-title margin-bottom-sm">
+                        <div class="inline-block fl">
+                            <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
+                            <span class="hour margin-right-sm">12:25</span><span class="date">2018/06/08</span>
+                        </div>
+                        <div class="inline-block fr pointer">
+                            <a href="./comment.html">
+                                <span class="glyphicon glyphicon-remove-sign" aria-hidden="true"></span>
+                                <span class="date">退出</span>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="text-cont margin-bottom-sm">
+                        一直听说牛油果吃起来像肥皂、肥肉，虽然很难吃，但是价格却很贵，我还是想尝试一下。今天公司新到了新西兰牛油果，这是新西兰牛油果是第一次在中国上市，个头比普通牛油果大了一倍，被誉为“超牛果”。好奇心驱使我尝了一颗，第一次吃牛油果没有见识，切开牛油果费了好大劲，切成了这样。
+                    </p>
+                    <div class="img-box">
+                        <img alt="" src="./img/1.jpg">
+                    </div>
+                    <div class="op-list margin-top flex justify-between text-gray">
+                        <div class="like margin-right-sm pointer">
+                            <span class="glyphicon glyphicon-thumbs-up"></span>
+                            <span>1200</span>
+                        </div>
+                        <div class="change-card pointer">
+                            <div class="inline-block prev">
+                                <span class="glyphicon glyphicon-menu-up"></span>
+                                <span>上一个</span>
+                            </div>
+                            <div class="inline-block margin-left next">
+                                <span class="glyphicon glyphicon-menu-down"></span>
+                                <span>下一个</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Q6-->
+        <div class="card_cont card6 content whisper-content bg-white shadow">
+            <div class="card h-10 relative padding-top-sm cont margin-auto">
+
+                <div class="item padding-top-xs">
+                    <div class="whisper-title margin-bottom-sm">
+                        <div class="inline-block fl">
+                            <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
+                            <span class="hour margin-right-sm">12:25</span><span class="date">2018/06/08</span>
+                        </div>
+                        <div class="inline-block fr pointer">
+                            <a href="./comment.html">
+                                <span class="glyphicon glyphicon-remove-sign" aria-hidden="true"></span>
+                                <span class="date">退出</span>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="text-cont margin-bottom-sm">
+                        一直听说牛油果吃起来像肥皂、肥肉，虽然很难吃，但是价格却很贵，我还是想尝试一下。今天公司新到了新西兰牛油果，这是新西兰牛油果是第一次在中国上市，个头比普通牛油果大了一倍，被誉为“超牛果”。好奇心驱使我尝了一颗，第一次吃牛油果没有见识，切开牛油果费了好大劲，切成了这样。
+                    </p>
+                    <div class="img-box">
+                        <img alt="" src="./img/1.jpg">
+                    </div>
+                    <div class="op-list margin-top flex justify-between text-gray">
+                        <div class="like margin-right-sm pointer">
+                            <span class="glyphicon glyphicon-thumbs-up"></span>
+                            <span>1200</span>
+                        </div>
+                        <div class="change-card pointer">
+                            <div class="inline-block prev">
+                                <span class="glyphicon glyphicon-menu-up"></span>
+                                <span>上一个</span>
+                            </div>
+                            <div class="inline-block margin-left next">
+                                <span class="glyphicon glyphicon-menu-down"></span>
+                                <span>下一个</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Q7-->
+        <div class="card_cont card7 content whisper-content bg-white shadow">
+            <div class="card h-10 relative padding-top-sm cont margin-auto">
+
+                <div class="item padding-top-xs">
+                    <div class="whisper-title margin-bottom-sm">
+                        <div class="inline-block fl">
+                            <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
+                            <span class="hour margin-right-sm">12:25</span><span class="date">2018/06/08</span>
+                        </div>
+                        <div class="inline-block fr pointer">
+                            <a href="./comment.html">
+                                <span class="glyphicon glyphicon-remove-sign" aria-hidden="true"></span>
+                                <span class="date">退出</span>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="text-cont margin-bottom-sm">
+                        一直听说牛油果吃起来像肥皂、肥肉，虽然很难吃，但是价格却很贵，我还是想尝试一下。今天公司新到了新西兰牛油果，这是新西兰牛油果是第一次在中国上市，个头比普通牛油果大了一倍，被誉为“超牛果”。好奇心驱使我尝了一颗，第一次吃牛油果没有见识，切开牛油果费了好大劲，切成了这样。
+                    </p>
+                    <div class="img-box">
+                        <img alt="" src="./img/1.jpg">
+                    </div>
+                    <div class="op-list margin-top flex justify-between text-gray">
+                        <div class="like margin-right-sm pointer">
+                            <span class="glyphicon glyphicon-thumbs-up"></span>
+                            <span>1200</span>
+                        </div>
+                        <div class="change-card pointer">
+                            <div class="inline-block prev">
+                                <span class="glyphicon glyphicon-menu-up"></span>
+                                <span>上一个</span>
+                            </div>
+                            <div class="inline-block margin-left next">
+                                <span class="glyphicon glyphicon-menu-down"></span>
+                                <span>下一个</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Q8-->
+        <div class="card_cont card8 content whisper-content bg-white shadow">
+            <div class="card h-10 relative padding-top-sm cont margin-auto">
+
+                <div class="item padding-top-xs">
+                    <div class="whisper-title margin-bottom-sm">
+                        <div class="inline-block fl">
+                            <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
+                            <span class="hour margin-right-sm">12:25</span><span class="date">2018/06/08</span>
+                        </div>
+                        <div class="inline-block fr pointer">
+                            <a href="./comment.html">
+                                <span class="glyphicon glyphicon-remove-sign" aria-hidden="true"></span>
+                                <span class="date">退出</span>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="text-cont margin-bottom-sm">
+                        一直听说牛油果吃起来像肥皂、肥肉，虽然很难吃，但是价格却很贵，我还是想尝试一下。今天公司新到了新西兰牛油果，这是新西兰牛油果是第一次在中国上市，个头比普通牛油果大了一倍，被誉为“超牛果”。好奇心驱使我尝了一颗，第一次吃牛油果没有见识，切开牛油果费了好大劲，切成了这样。
+                    </p>
+                    <div class="img-box">
+                        <img alt="" src="./img/1.jpg">
+                    </div>
+                    <div class="op-list margin-top flex justify-between text-gray">
+                        <div class="like margin-right-sm pointer">
+                            <span class="glyphicon glyphicon-thumbs-up"></span>
+                            <span>1200</span>
+                        </div>
+                        <div class="change-card pointer">
+                            <div class="inline-block prev">
+                                <span class="glyphicon glyphicon-menu-up"></span>
+                                <span>上一个</span>
+                            </div>
+                            <div class="inline-block margin-left next">
+                                <span class="glyphicon glyphicon-menu-down"></span>
+                                <span>下一个</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Q9-->
+        <div class="card_cont card9 content whisper-content bg-white shadow">
+            <div class="card h-10 relative padding-top-sm cont margin-auto">
+
+                <div class="item padding-top-xs">
+                    <div class="whisper-title margin-bottom-sm">
+                        <div class="inline-block fl">
+                            <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
+                            <span class="hour margin-right-sm">12:25</span><span class="date">2018/06/08</span>
+                        </div>
+                        <div class="inline-block fr pointer">
+                            <a href="./comment.html">
+                                <span class="glyphicon glyphicon-remove-sign" aria-hidden="true"></span>
+                                <span class="date">退出</span>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="text-cont margin-bottom-sm">
+                        一直听说牛油果吃起来像肥皂、肥肉，虽然很难吃，但是价格却很贵，我还是想尝试一下。今天公司新到了新西兰牛油果，这是新西兰牛油果是第一次在中国上市，个头比普通牛油果大了一倍，被誉为“超牛果”。好奇心驱使我尝了一颗，第一次吃牛油果没有见识，切开牛油果费了好大劲，切成了这样。
+                    </p>
+                    <div class="img-box">
+                        <img alt="" src="./img/1.jpg">
+                    </div>
+                    <div class="op-list margin-top flex justify-between text-gray">
+                        <div class="like margin-right-sm pointer">
+                            <span class="glyphicon glyphicon-thumbs-up"></span>
+                            <span>1200</span>
+                        </div>
+                        <div class="change-card pointer">
+                            <div class="inline-block prev">
+                                <span class="glyphicon glyphicon-menu-up"></span>
+                                <span>上一个</span>
+                            </div>
+                            <div class="inline-block margin-left next">
+                                <span class="glyphicon glyphicon-menu-down"></span>
+                                <span>下一个</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!--/card_wrap-->
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/common.js"></script>
+<script>
+    $(function () {
+        $("#answer").answerSheet({});
+    })
+
+</script>
+
+
+</body>
+</html>
+

@@ -40,6 +40,7 @@
     --pinkLight: #f9d7ea;
     --brownLight: #ede1d9;
     --greyLight: #e7ebed;
+    --grayLight: #f9f9f9;
     /* 渐变色 */
     --gradualRed: linear-gradient(45deg, #f43f3b, #ec008c);
     --gradualOrange: linear-gradient(45deg, #ff9700, #ed1c24);
@@ -164,6 +165,10 @@
 
 .margin-0 {
     margin: 0;
+}
+
+.margin-auto {
+    margin: 0 auto;
 }
 
 .margin-xs {
@@ -685,6 +690,11 @@
 
 .absolute {
     position: absolute;
+}
+
+.fixed {
+    position: fixed;
+    z-index: 9999;
 }
 
 .top-0 {
