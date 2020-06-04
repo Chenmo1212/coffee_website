@@ -15,6 +15,18 @@ button,
   color: #9e7966;
 }
 
+.btn-primary {
+  color: #000;
+  background-color: #fff;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  color: #000;
+  background-color: #eee !important;
+  border: 1px solid #aaa;
+}
+
 /*
 * header
 */
@@ -187,7 +199,7 @@ button,
   height: 180px;
 }
 
-.text {
+.culture-main .text {
   padding: 20px 10px;
   background-color: rgb(68, 36, 11);
 }
@@ -573,6 +585,58 @@ body:target {
   -webkit-transform: translate(0, -1000px) !important;
 }
 
+/*
+* article
+*/
+.article .details-content .article-cont .btn-box {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.article .layui-textarea {
+  min-height: 100px;
+  height: auto;
+  line-height: 20px;
+  padding: 6px 10px;
+  resize: vertical;
+  width: 100%;
+}
+
+.article .content .review-version .form .layui-input-block .layui-btn {
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  background: #eee;
+  border: none;
+}
+
+.article .content .review-version .form .layui-input-block .layui-btn:hover {
+  background: #be9d68;
+  color: #fff;
+}
+
+.article .content .review-version .cont img {
+  float: left;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.article .leacots-content .review-version .list-cont .cont {
+  max-width: 100%;
+}
+
+.article .content .review-version .list-cont .cont {
+  padding: 40px 0 30px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.article .content .review-version .list-cont .cont .text {
+    padding-left: 70px;
+    line-height: 22px;
+    color: #333;
+}
+.article .cont .text .data {
+  float: right;
+}
 /* 小屏幕（平板，大于等于 768px） */
 @media (max-width: 768px) {
   .card_cont {
