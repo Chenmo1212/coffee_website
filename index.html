@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
   <title>陌尘咖啡</title>
 
@@ -16,9 +16,49 @@
 
 <body>
   <!--header-->
-  <div id="header"></div>
-  <!-- <iframe src="./components/header.html" width="100%"; height="94px" frameborder="0" scrolling="no" name="headFrame"></iframe> -->
+  <div id="header">
+    <div class="header container padding-xs flex align-center">
+      <div class="col-md-5">
+        <ul class="nav nav-tabs nav-justified">
+          <li><a href="./index.html" class="active">
+                    <span class="block row text-lg text-bold nav-tit">首页</span>
+                    <span class="block row text-grey nav-tit-en">Home Page</span>
+                </a></li>
+          <li><a href="./new_product.html">
+                    <span class="block row text-lg text-bold nav-tit">新品推荐</span>
+                    <span class="block row text-grey nav-tit-en">New Products</span>
+                </a></li>
+          <li><a href="./activity.html">
+                    <span class="block row text-lg text-bold nav-tit">活动及优惠</span>
+                    <span class="block row text-grey nav-tit-en">Activities and preferential</span>
+                </a></li>
+        </ul>
+      </div>
+      <div class="col-md-2 text-center">
+        <a class="inline-block" href="#">
+                <img src="./images/logo.png" alt="" id="logo"/></a>
+      </div>
+      <div class="col-md-5">
+        <ul class="nav nav-tabs nav-justified">
+          <li>
+            <a href="./culture.html">
+                    <span class="block row text-lg text-bold nav-tit">咖啡文化</span>
+                    <span class="block row text-grey nav-tit-en">Coffee culture</span>
+            </a></li>
+          <li>
+            <a href="./comment.html">
+                    <span class="block row text-lg text-bold nav-tit">商品评价</span>
+                    <span class="block row text-grey nav-tit-en">Brand Story</span>
+                </a></li>
+          <li><a href="#">
+                    <span class="block row text-lg text-bold nav-tit">帮助中心</span>
+                    <span class="block row text-grey nav-tit-en">Help Center</span>
+                </a></li>
+        </ul>
+      </div>
+    </div>
 
+  </div>
   <!--spider-->
   <div id="spider" class="lb_box">
     <div class="lb_imgbox">
@@ -103,7 +143,7 @@
         </div>
       </div>
       <div class="more text-center">
-        <span class="btn more-btn border">了解更多</span>
+        <span class="btn more-btn border"><a href="./new_product.html" class="pointer">了解更多</a></span>
       </div>
     </div>
   </div>
@@ -130,9 +170,9 @@
               <p class="text-indent padding-lr-xl">Pacific Coffee今秋推出三款桂花系列饮品，特限时以优惠价格，邀您与相知的人共饮：</p>
             </div>
             <div class="price padding-top-sm padding-lr-xl">
-              <p><a href="#">咖码素娜桂花蜜糖拿铁...........................33元/标杯36元/大杯39元/特大杯</a></p>
-              <p><a href="#">咖玛素娜桂花拿铁..................................33元/标杯36元/大杯39元/特大杯</a></p>
-              <p><a href="#">桂花蜜糖红茶拿铁..................................33元/标杯36元/大杯39元/特大杯</a></p>
+              <p><a href="#">咖码素娜桂花蜜糖拿铁...........................33元/标杯36元/大杯39元/特大杯</p>
+              <p><a href="#">咖玛素娜桂花拿铁..................................33元/标杯36元/大杯39元/特大杯</p>
+              <p><a href="#">桂花蜜糖红茶拿铁..................................33元/标杯36元/大杯39元/特大杯</p>
             </div>
           </div>
         </div>
@@ -164,7 +204,7 @@
         </div>
       </div>
       <div class="more text-center">
-        <span class="btn more-btn border">了解更多</span>
+        <span class="btn more-btn border"><a href="./new_product.html" class="pointer">了解更多</a></span>
       </div>
     </div>
   </div>
@@ -222,7 +262,7 @@
           </div>
         </div>
         <div class="more text-center padding-top-lg">
-          <span class="btn more-btn border">了解更多</span>
+          <span class="btn more-btn border"><a href="./new_product.html" class="pointer">了解更多</a></span>
         </div>
       </div>
     </div>
@@ -268,7 +308,7 @@
       </div>
     </div>
     <div class="more text-center absolute" style="bottom:200px; right: 20%;">
-      <span class="btn more-btn border text-white" style="border: 1px solid #fff;">了解更多</span>
+      <span class="btn more-btn border" style="border: 1px solid #fff;"><a href="./culture.html" class="pointer text-white">了解更多</a></span>
     </div>
   </div>
 
@@ -287,7 +327,7 @@
           <div class="tit text-bold text-xxl text-center">分店详情</div>
           <div class="content text-lg text-indent" style="line-height: 30px;">分店遍布中国内地、香港、新加坡、澳门及马来西亚的Pacific Coffee，将Perfect Cup的咖啡文化不断拓展。可于以下地图点选阁下身处的位置，搜索邻近的分店数据或点击这里检视所有的分店地址。</div>
           <div class="more text-center margin-top">
-            <span class="btn more-btn border">了解更多</span>
+            <!-- <span class="btn more-btn border">了解更多</span> -->
           </div>
         </div>
       </div>
@@ -298,28 +338,98 @@
           <div class="tit text-bold text-xxl text-center">意见反馈</div>
           <div class="content text-lg text-indent" style="line-height: 30px;">我们非常重视您的意见和建议，为了让您在Pacific Coffee的体验更完美，请将您的意见或者建议与我们分享，我们会致力为顾客提供最完美的咖啡体验</div>
           <div class="more text-center margin-top">
-            <span class="btn more-btn border">立即反馈</span>
+            <!-- <span class="btn more-btn border">立即反馈</span> -->
           </div>
         </div>
       </div>
     </div>
   </div>
 
+
+    <div class="alert-box fixed container right-0 a-fadeinB " style="display: none;">
+      <div class="alert alert-success w-5 fr" role="alert">
+        <span class="glyphicon glyphicon-ok-sign" aria-hidden="true"></span>
+        <span class="alert-text">没有更多了哦</span>
+      </div>
+    </div>
+
   <!--footer-->
-  <div id="footer"></div>
-  <!--<iframe src="./components/footer.html" width="100%"; height="240px" frameborder="0" scrolling="no" name="headFrame"></iframe>-->
+  <div id="footer">
+    <div class="footer-bg">
+      <div class="container">
+        <div class="row padding-tb-lg">
+          <div class="col-md-6">
+            <div class="row">
+              <div class="table">
+                <div class="th row text-bold text-df text-white">
+                  <div class="col-md-2 padding-0"><a href="#">首页</a></div>
+                  <div class="col-md-2 padding-0"><a href="./new_product.html">新品推荐</a></div>
+                  <div class="col-md-2 padding-0"><a href="./activity.html">活动及优惠</a></div>
+                  <div class="col-md-2 padding-0"><a href="./culture.html">咖啡文化</a></div>
+                  <div class="col-md-2 padding-0"><a href="./comment.html">商品评论</a></div>
+                  <div class="col-md-2 padding-0"><a href="./about.html">关于我</a></div>
+                </div>
+                <div class="tb">
+                  <div class="row text-sm">
+                    <div class="col-md-2 padding-0"></div>
+                    <div class="col-md-2 padding-0 padding-top-xs">
+                      <p class="padding-top-xs text-white" onclick="clickFooter()">当季新品</p>
+                      <p class="padding-top-xs text-white" onclick="clickFooter()">招牌产品</p>
+                      <p class="padding-top-xs text-white" onclick="clickFooter()">陌尘特色</p>
+                      <p class="padding-top-xs text-white" onclick="clickFooter()">咖啡机</p>
+                    </div>
+                    <div class="col-md-2 padding-0 padding-top-xs">
+                      <p class="padding-top-xs text-white" onclick="clickFooter()">会员卡—陌卡</p>
+                      <p class="padding-top-xs text-white" onclick="clickFooter()">最新活动</p>
+                      <p class="padding-top-xs text-white" onclick="clickFooter()">订阅电子信息</p>
+                    </div>
+                    <div class="col-md-2 padding-0 padding-top-xs">
+                      <p class="padding-top-xs text-white" onclick="clickFooter()">当季新品</p>
+                      <p class="padding-top-xs text-white" onclick="clickFooter()">咖啡种植</p>
+                      <p class="padding-top-xs text-white" onclick="clickFooter()">咖啡烘焙</p>
+                      <p class="padding-top-xs text-white" onclick="clickFooter()">咖啡伴侣</p>
+                    </div>
+                    <div class="col-md-2 padding-0 padding-top-xs">
+                      <p class="padding-top-xs text-white" onclick="clickFooter()">关于陌尘</p>
+                      <p class="padding-top-xs text-white" onclick="clickFooter()">社会责任</p>
+                      <p class="padding-top-xs text-white" onclick="clickFooter()">就业机会</p>
+                      <p class="padding-top-xs text-white" onclick="clickFooter()">特许经营</p>
+                    </div>
+                    <div class="col-md-2 padding-0 padding-top-xs">
+                      <p class="padding-top-xs text-white" onclick="clickFooter()">分点详情</p>
+                      <p class="padding-top-xs text-white" onclick="clickFooter()">联络详情</p>
+                      <p class="padding-top-xs text-white" onclick="clickFooter()">问题反馈</p>
+                      <p class="padding-top-xs text-white" onclick="clickFooter()">隐私政策</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 info text-white text-sm padding-top-xxs">
+            <div class="row padding-bottom-xs">地址：吉林省长春市朝阳区前进大街长春理工大学</div>
+            <div class="row padding-bottom-xs">电话：（082）400 880 08820</div>
+            <div class="row padding-bottom-xs">传真：（082）400 880 08820</div>
+            <div class="row padding-bottom-xs">邮箱：chenmo1212@qq.com</div>
+            <div class="row padding-bottom-xs">顾客服务热线：（082）400 880 08820</div>
+          </div>
+          <div class="col-md-2">
+            <div class="row padding-top-xxs">
+              <div class="col-md-8 col-sm-4 col-xs-3">
+                <img src="./images/code.png" style="width: 100%;" alt="">
+                <div class="text-white text-center padding-top-xs" onclick="clickFooter()">关注更多</div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <script src="./js/jquery.min.js"></script>
   <script src="./js/bootstrap.min.js"></script>
   <script src="./js/common.js"></script>
-  <script>
-    $(document).ready(function() {
-      // 利用jq的load方法引入header
-      $("#header").load('./components/header.html');
-
-      // 利用jq的load方法引入footer
-      $("#footer").load('./components/footer.html');
-    });
-  </script>
 </body>
 
 </html>

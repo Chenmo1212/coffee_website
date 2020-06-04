@@ -313,3 +313,18 @@ $.fn.answerSheet = function (options) {
 
 })(jQuery, window, document);
 
+function clickFooter(){
+  $(".alert-box").css({
+    display: ""
+  });
+  var timeId1 = setTimeout(function() {
+    $(".alert-box").addClass('a-fadeout');
+    var timeId2 = setTimeout(function() {
+      $(".alert-box").css({
+        display: "none"
+      }).removeClass('a-fadeout');
+      clearTimeout(timeId1);
+      clearTimeout(timeId2);
+    }, 1000)
+  }, 3000)
+}
