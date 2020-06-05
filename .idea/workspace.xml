@@ -428,7 +428,7 @@
       <option name="project" value="LOCAL" />
       <updated>1586424932455</updated>
     </task>
-    <task id="LOCAL-00009" summary="help center">
+    <task id="LOCAL-00009" summary="Submit Orders">
       <created>1586425778639</created>
       <option name="number" value="00009" />
       <option name="presentableId" value="LOCAL-00009" />
@@ -498,7 +498,7 @@
     <MESSAGE value="main" />
     <MESSAGE value="culture" />
     <MESSAGE value="brand story" />
-    <MESSAGE value="help center" />
+    <MESSAGE value="Submit Orders" />
     <MESSAGE value="coffee culture" />
     <MESSAGE value="comment page" />
     <option name="LAST_COMMIT_MESSAGE" value="comment page" />
