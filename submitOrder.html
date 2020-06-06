@@ -21,13 +21,17 @@
     }
 
     a {
-      color: teal;
       text-decoration: none;
       font-weight: bold;
     }
     @media (max-width: 768px) {
       #contact {
         margin: 100px auto 0;
+      }
+    }
+    @media (min-width: 768px) {
+      #contact {
+        margin: 200px auto 0;
       }
     }
   </style>
@@ -62,7 +66,7 @@
                 </a>
             </div>
             <div class="menu-item padding-lr">
-              <a href="./activity.html" class="active">
+              <a href="./activity.html">
                     <span class="block row text-lg text-bold nav-tit">活动及优惠</span>
                     <span class="block row text-grey nav-tit-en">Activities and preferential</span>
                 </a>
@@ -82,7 +86,7 @@
                   <span class="block row text-grey nav-tit-en">Product evaluation</span>
               </a>
             </div>
-            <div class="menu-item padding-lr">
+            <div class="menu-item padding-lr active">
               <a href="./submitOrder.html">
                   <span class="block row text-lg text-bold nav-tit">提交订单</span>
                   <span class="block row text-grey nav-tit-en">Submit Orders</span>
