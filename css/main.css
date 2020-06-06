@@ -31,8 +31,9 @@ button,
 * header
 */
 .active span {
-  color: #aaa!important;
+  color: #aaa !important;
 }
+
 .navbar-toggle span {
   background-color: #000;
 }
@@ -728,6 +729,24 @@ body:target {
   text-align: center;
   font-size: 4.25em;
   line-height: 2em;
+}
+
+.loading-box .mask {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  z-index: 99998;
+}
+
+.loading-box #loading {
+  z-index: 99999;
+  position: absolute;
+  left: 50%;
+  margin-left: -50px;
+  top: 50%;
+  margin-top: -50px;
 }
 
 @-webkit-keyframes bouncing {
