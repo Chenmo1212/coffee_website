@@ -13,51 +13,66 @@
 <body>
 <!-- header -->
 <div id="header">
-  <div class="header container padding-xs flex align-center">
-    <div class="col-md-5">
-      <ul class="nav nav-tabs nav-justified">
-        <li><a href="./index.html">
+  <nav class="nav navbar-fixed-top" style="background-color: #fff;">
+    <div class="container">
+      <div class="navbar-header">
+        <!--在移动端的时候导航条折叠起来，三横的样式出现，点击该样式可以显示或隐藏导航条上的内容-->
+        <button class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+                <span class="icon-bar text-black"></span>
+                <span class="icon-bar text-black"></span>
+                <span class="icon-bar text-black"></span>
+            </button>
+        <a href="#" class="logo"><img src="./images/logo.png" alt="" height="100%"></a>
+      </div>
+      <div id="menu" class="collapse navbar-collapse text-center">
+        <div class="nav">
+          <div class="menu-item padding-lr">
+            <a href="./index.html">
                   <span class="block row text-lg text-bold nav-tit">首页</span>
                   <span class="block row text-grey nav-tit-en">Home Page</span>
-              </a></li>
-        <li><a href="./new_product.html">
+              </a>
+          </div>
+          <div class="menu-item padding-lr">
+            <a href="./new_product.html">
                   <span class="block row text-lg text-bold nav-tit">新品推荐</span>
                   <span class="block row text-grey nav-tit-en">New Products</span>
-              </a></li>
-        <li><a href="./activity.html">
+              </a>
+          </div>
+          <div class="menu-item padding-lr">
+            <a href="./activity.html" class="active">
                   <span class="block row text-lg text-bold nav-tit">活动及优惠</span>
                   <span class="block row text-grey nav-tit-en">Activities and preferential</span>
-              </a></li>
-      </ul>
-    </div>
-    <div class="col-md-2 text-center">
-      <a class="inline-block" href="#">
-              <img src="./images/logo.png" alt="" id="logo"/></a>
-    </div>
-    <div class="col-md-5">
-      <ul class="nav nav-tabs nav-justified">
-        <li>
-          <a href="./culture.html"  class="active">
-                  <span class="block row text-lg text-bold nav-tit">咖啡文化</span>
-                  <span class="block row text-grey nav-tit-en">Coffee culture</span>
-          </a></li>
-        <li>
-          <a href="./comment.html">
-                  <span class="block row text-lg text-bold nav-tit">商品评价</span>
-                  <span class="block row text-grey nav-tit-en">Brand Story</span>
-              </a></li>
-        <li><a href="./submitOrder.html">
-                  <span class="block row text-lg text-bold nav-tit">提交订单</span>
-                  <span class="block row text-grey nav-tit-en">Submit Orders</span>
-              </a></li>
-      </ul>
-    </div>
-  </div>
+              </a>
+          </div>
 
+          <div id="logo"><a href="#"><img src="./images/logo.png" alt=""></a></div>
+
+          <div class="menu-item padding-lr">
+            <a href="./culture.html">
+                      <span class="block row text-lg text-bold nav-tit">咖啡文化</span>
+                      <span class="block row text-grey nav-tit-en">Coffee culture</span>
+              </a>
+          </div>
+          <div class="menu-item padding-lr">
+            <a href="./comment.html">
+                <span class="block row text-lg text-bold nav-tit">商品评价</span>
+                <span class="block row text-grey nav-tit-en">Product evaluation</span>
+            </a>
+          </div>
+          <div class="menu-item padding-lr">
+            <a href="./submitOrder.html">
+                <span class="block row text-lg text-bold nav-tit">提交订单</span>
+                <span class="block row text-grey nav-tit-en">Submit Orders</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
 </div>
 
 <!-- banner -->
-<div class="cover relative" style="width: 100%;overflow: hidden;">
+<div class="cover relative header-space" style="width: 100%;overflow: hidden;">
     <div class="bg gray" style="max-height: 500px;">
         <img src="./images/4.jpg" alt="" style="width: 100%;">
     </div>
@@ -96,7 +111,7 @@
                 <p class="text-indent">咖啡味苦，具特异香妹，含物啡醇和1.3%的咖啡因生物碱，为麻醉、利尿、兴奋和强心药物。熔炒的咖啡还有助消化的功效。</p>
                 <p class="text-indent">咖啡中含有咖啡因，有刺激中枢神经，促进肝糖元分解，升高血糖的功能.适量饮用可使人暂时精力旺盛，思维敏捷。运动后饮用，有消除疲劳，恢复体力，振奋精</p>
                 <div class="more text-right text-white">
-                    <span class="btn more-btn border-white">了解更多</span>
+                    <span class="btn more-btn border-white"><a href="./article.html" class="text-white">了解更多</a></span>
                 </div>
             </div>
         </div>
@@ -277,6 +292,7 @@
 </div>
 
 <script src="./js/jquery.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
 <script src="./js/common.js"></script>
 </body>
 
