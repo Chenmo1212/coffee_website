@@ -328,3 +328,6 @@ function clickFooter(){
     }, 1000)
   }, 3000)
 }
+function toAboutMe(){
+  window.location.href = "./aboutMe.html"
+}

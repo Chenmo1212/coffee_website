@@ -850,6 +850,138 @@ body:target {
  #contact.submitted #post{
  	display:block;
  }
+
+ /*
+  | ------------------------------------------
+  |	aboutMe
+  | ------------------------------------------
+  */
+
+.resume .container {
+    background: #fff;
+    padding: 70px 75px;
+    margin: 50px auto;
+    border: 1px solid #a5d4fc;
+}
+
+.resume img {
+    max-width: 100%
+}
+
+.resume .propic {
+    border-radius: 10px;
+}
+
+.resume hr {
+    margin: 40px 0;
+}
+
+.resume h1 {
+    font-size: 2em;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #000;
+    margin: 0;
+}
+
+.resume h2 {
+    font-size: 1.3em;
+    background: #fcfcfc;
+    padding: 10px;
+}
+
+.resume h3 {
+    font-size: 1.4em;
+    text-transform: uppercase;
+    color: #000;
+    margin-top: 0;
+}
+
+.resume h4 {
+    margin: 15px 0 0;
+}
+
+.resume p,
+.resume a {
+    line-height: 1.7em;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+.resume li {
+    padding: 7px 0;
+}
+
+.resume .dl-share .btn {
+    min-width: 120px;
+}
+
+.resume .signature {
+    font-family: 'Kristi', cursive;
+    color: #3e3f40;
+    font-size: 2.2em;
+    margin-top: 20px;
+}
+
+.resume .social {
+    margin-right: 7px;
+}
+
+.resume .btn .fa {
+    margin-right: 10px;
+}
+
+.resume .secicon.fa {
+    font-size: 28px;
+    color: #000;
+    margin-right: 10px;
+}
+
+.resume .sub {
+    margin-bottom: 15px;
+}
+
+.resume .award {
+    padding-top: 20px;
+}
+
+.resume blockquote {
+    font-size: 1em;
+    padding: 0 15px;
+    margin: 30px 0;
+}
+.resume .copyrights{
+	text-indent:-9999px;
+	height:0;
+	line-height:0;
+	font-size:0;
+	overflow:hidden;
+}
+.resume .mainleft {
+    padding-right: 30px;
+}
+
+.resume .testimonials img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 15px;
+    margin-top: -10px;
+    border: 1px solid #ededed;
+}
+
+.resume .year,
+.resume .share {
+    text-align: right;
+}
+
+.resume footer p,
+.resume footer a {
+    font-size: 13px;
+}
+
 /*
  | ------------------------------------------
  |	RESPONSIVENESS
