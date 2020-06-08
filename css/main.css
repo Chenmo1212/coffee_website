@@ -101,6 +101,16 @@ button,
   color: #fff;
 }
 
+@media (max-width: 768px) {
+  #footer .table .th {
+    padding-left: 60px;
+  }
+
+  #footer>div>div>div>div.info {
+    padding-left: 40px;
+  }
+}
+
 /*
 *轮播
 */
@@ -179,6 +189,12 @@ button,
   .lb_box {
     height: 40vw;
   }
+
+  .lb_imgleft>ul>li>a>img {
+    min-height: 40vw;
+    max-width: 100vw;
+    min-width: 100vw;
+  }
 }
 
 .lb_btn {
@@ -244,6 +260,14 @@ button,
 /*
 * activity
 */
+@media (max-width: 768px) {
+  div.acti div.item.row .intro {
+    margin-top: 0;
+    padding: 20px 10px !important;
+  }
+}
+
+
 .cover {
   overflow: hidden;
 }
@@ -333,6 +357,11 @@ button,
   .life .coffee img {
     width: 50%;
     display: inline-block;
+  }
+}
+@media (min-width: 992px) {
+  .bg-culture .healthy {
+    border-right: 1px solid #fff;
   }
 }
 

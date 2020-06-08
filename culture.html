@@ -2,212 +2,219 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>咖啡文化</title>
-    <link href="./css/bootstrap.min.css" rel="stylesheet">
-    <link href="./css/main.css" rel="stylesheet">
-    <link href="./css/common.css" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>咖啡文化</title>
+  <link href="./css/bootstrap.min.css" rel="stylesheet">
+  <link href="./css/main.css" rel="stylesheet">
+  <link href="./css/common.css" rel="stylesheet">
+  <style>
+    @media (max-width: 992px) {
+      .healthy {
+        margin-left: 25%;
+      }
+    }
+  </style>
 </head>
 
 <body>
-<!-- header -->
-<div id="header">
-  <nav class="nav navbar-fixed-top" style="background-color: #fff;">
-    <div class="container">
-      <div class="navbar-header">
-        <!--在移动端的时候导航条折叠起来，三横的样式出现，点击该样式可以显示或隐藏导航条上的内容-->
-        <button class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+  <!-- header -->
+  <div id="header">
+    <nav class="nav navbar-fixed-top" style="background-color: #fff;">
+      <div class="container">
+        <div class="navbar-header">
+          <!--在移动端的时候导航条折叠起来，三横的样式出现，点击该样式可以显示或隐藏导航条上的内容-->
+          <button class="navbar-toggle" data-toggle="collapse" data-target="#menu">
                 <span class="icon-bar text-black"></span>
                 <span class="icon-bar text-black"></span>
                 <span class="icon-bar text-black"></span>
             </button>
-        <a href="#" class="logo"><img src="./images/logo.png" alt="" height="100%"></a>
-      </div>
-      <div id="menu" class="collapse navbar-collapse text-center">
-        <div class="nav">
-          <div class="menu-item padding-lr">
-            <a href="./index.html">
+          <a href="#" class="logo"><img src="./images/logo.png" alt="" height="100%"></a>
+        </div>
+        <div id="menu" class="collapse navbar-collapse text-center">
+          <div class="nav">
+            <div class="menu-item padding-lr">
+              <a href="./index.html">
                   <span class="block row text-lg text-bold nav-tit">首页</span>
                   <span class="block row text-grey nav-tit-en">Home Page</span>
               </a>
-          </div>
-          <div class="menu-item padding-lr">
-            <a href="./new_product.html">
+            </div>
+            <div class="menu-item padding-lr">
+              <a href="./new_product.html">
                   <span class="block row text-lg text-bold nav-tit">新品推荐</span>
                   <span class="block row text-grey nav-tit-en">New Products</span>
               </a>
-          </div>
-          <div class="menu-item padding-lr">
-            <a href="./activity.html">
+            </div>
+            <div class="menu-item padding-lr">
+              <a href="./activity.html">
                   <span class="block row text-lg text-bold nav-tit">活动及优惠</span>
                   <span class="block row text-grey nav-tit-en">Activities and preferential</span>
               </a>
-          </div>
+            </div>
 
-          <div id="logo"><a href="#"><img src="./images/logo.png" alt=""></a></div>
+            <div id="logo"><a href="#"><img src="./images/logo.png" alt=""></a></div>
 
-          <div class="menu-item padding-lr active">
-            <a href="./culture.html">
+            <div class="menu-item padding-lr active">
+              <a href="./culture.html">
                       <span class="block row text-lg text-bold nav-tit">咖啡文化</span>
                       <span class="block row text-grey nav-tit-en">Coffee culture</span>
               </a>
-          </div>
-          <div class="menu-item padding-lr">
-            <a href="./comment.html">
+            </div>
+            <div class="menu-item padding-lr">
+              <a href="./comment.html">
                 <span class="block row text-lg text-bold nav-tit">商品评价</span>
                 <span class="block row text-grey nav-tit-en">Product evaluation</span>
             </a>
-          </div>
-          <div class="menu-item padding-lr">
-            <a href="./submitOrder.html">
+            </div>
+            <div class="menu-item padding-lr">
+              <a href="./submitOrder.html">
                 <span class="block row text-lg text-bold nav-tit">提交订单</span>
                 <span class="block row text-grey nav-tit-en">Submit Orders</span>
             </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <!-- banner -->
+  <div class="cover relative header-space" style="width: 100%;overflow: hidden;">
+    <div class="bg gray" style="max-height: 500px;">
+      <img src="./images/4.jpg" alt="" style="width: 100%;">
+    </div>
+    <div class="w-10 absolute top-0 left-0 h-10">
+      <div class="img-box container text-center h-100 over-hidden" style="">
+        <img src="./images/culture.png" alt="" class="inline-block" style="height: 100%;">
+        </div>
+    </div>
+  </div>
+
+  <!-- 导航 -->
+  <div class="well margin-0">
+    <div class="container">
+      <div class="title text-bold text-lg fl">
+        咖啡专用奶及冲调法
+      </div>
+      <div class="item-group flex fr justify-end hidden-sm hidden-xs">
+        <div class="title padding-left-sm">咖啡的起源与培植</div>
+        <div class="title padding-left-sm">咖啡专用奶及冲调法</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="w-10 bg-culture">
+    <div class="container bg-culture padding-tb-lg">
+      <div class="row" style="margin: 0;">
+        <div class="col-md-2 col-sm-6 col-xs-6 healthy">
+          <img src="./images/culture-cup.png" alt="" class="inline-block w-10 fr">
+            </div>
+        <div class="col-md-5 col-sm-12 col-xs-12">
+          <h3 class="text-white">咖啡与健康</h3>
+          <p class="text-indent text-white">
+            咖排是西方人的主要饮料之一。果实成熟后除去果皮除去果皮及大部分种皮所得的种子称生咖啡或咖啡豆。生咖排经熔炒后研细得咖啡粉，即可制作饮料。咖啡味苦，具特异香味，含嘘啡醇和1.3%的咖啡因生物喊，为麻醉、利尿、兴奋和强心药物。熔炒的咖啡还有助游化的功效；还有提神功效，因此我国很多人也十分喜爱。.经常加班、熬夜的人常用它来提神；情侣们往往酷爱咖啡屋的温馨氛围。可以说咖啡也是我国的主要饮料之一。</p>
+        </div>
+        <div class="col-md-5 col-sm-12 col-xs-12 text-white padding-top-sm">
+          <p class="text-indent">咖啡味苦，具特异香妹，含物啡醇和1.3%的咖啡因生物碱，为麻醉、利尿、兴奋和强心药物。熔炒的咖啡还有助消化的功效。</p>
+          <p class="text-indent">咖啡中含有咖啡因，有刺激中枢神经，促进肝糖元分解，升高血糖的功能.适量饮用可使人暂时精力旺盛，思维敏捷。运动后饮用，有消除疲劳，恢复体力，振奋精</p>
+          <div class="more text-right text-white">
+            <span class="btn more-btn border-white"><a href="./article.html" class="text-white">了解更多</a></span>
           </div>
         </div>
       </div>
     </div>
-  </nav>
-</div>
-
-<!-- banner -->
-<div class="cover relative header-space" style="width: 100%;overflow: hidden;">
-    <div class="bg gray" style="max-height: 500px;">
-        <img src="./images/4.jpg" alt="" style="width: 100%;">
-    </div>
-    <div class="w-10 absolute top-0 left-0 h-10">
-        <div class="img-box container text-center h-100 over-hidden" style="">
-            <img src="./images/culture.png" alt="" class="inline-block" style="height: 100%;">
-        </div>
-    </div>
-</div>
-
-<!-- 导航 -->
-<div class="well margin-0">
-    <div class="container">
-        <div class="title text-bold text-lg fl">
-            咖啡专用奶及冲调法
-        </div>
-        <div class="item-group flex fr justify-end">
-            <div class="title padding-left-sm">咖啡的起源与培植</div>
-            <div class="title padding-left-sm">咖啡专用奶及冲调法</div>
-        </div>
-    </div>
-</div>
-
-<div class="w-10 bg-culture">
-    <div class="container bg-culture padding-tb-lg">
-        <div style=" width: 100%;" class="flex align-center">
-            <div class="col-md-2 col-sm-4 col-xs-2" style="border-right: 1px solid #fff;">
-                <img src="./images/culture-cup.png" alt="" class="inline-block w-10 fr">
-            </div>
-            <div class="col-md-5 col-sm-4 col-xs-5">
-                <h3 class="text-white">咖啡与健康</h3>
-                <p class="text-indent text-white">
-                    咖排是西方人的主要饮料之一。果实成熟后除去果皮除去果皮及大部分种皮所得的种子称生咖啡或咖啡豆。生咖排经熔炒后研细得咖啡粉，即可制作饮料。咖啡味苦，具特异香味，含嘘啡醇和1.3%的咖啡因生物喊，为麻醉、利尿、兴奋和强心药物。熔炒的咖啡还有助游化的功效；还有提神功效，因此我国很多人也十分喜爱。.经常加班、熬夜的人常用它来提神；情侣们往往酷爱咖啡屋的温馨氛围。可以说咖啡也是我国的主要饮料之一。</p>
-            </div>
-            <div class="col-md-5 col-sm-4 col-xs-5 text-white padding-top-sm">
-                <p class="text-indent">咖啡味苦，具特异香妹，含物啡醇和1.3%的咖啡因生物碱，为麻醉、利尿、兴奋和强心药物。熔炒的咖啡还有助消化的功效。</p>
-                <p class="text-indent">咖啡中含有咖啡因，有刺激中枢神经，促进肝糖元分解，升高血糖的功能.适量饮用可使人暂时精力旺盛，思维敏捷。运动后饮用，有消除疲劳，恢复体力，振奋精</p>
-                <div class="more text-right text-white">
-                    <span class="btn more-btn border-white"><a href="./article.html" class="text-white">了解更多</a></span>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+  </div>
 
 
-<div class="row padding-0 margin-0 methods relative">
-    <div class="bg w-10 hidden-sm">
-        <img src="./images/culture-bg2-0.png" alt="" class="inline-block w-10">
+  <div class="row padding-0 margin-0 methods relative">
+    <div class="bg w-10 hidden-sm hidden-xs">
+      <img src="./images/culture-bg2-0.png" alt="" class="inline-block w-10">
     </div>
-    <div class="absolute top-0 hidden-sm">
-        <div class="col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-3 col-sm-10 col-sm-offset-1 margin-top">
-            <h2 class="tit text-center margin-tb">咖啡的基本冲调方法</h2>
-            <p class="text-indent text-bold text-lg" style="line-height: 30px;">
-                以下任一的方法冲泡出咖啡液，但浓度需是热咖啡浓度的2倍，在玻璃杯中注入冰块，加入咖啡使其快速冷冻。或是将咖啡壶放在冰冷的水中冷却，再放到冰箱冷藏，但须注意一点是冷却的时间过长，会结成冰块或导致味道变质。</p>
-        </div>
+    <div class="absolute top-0 hidden-sm hidden-xs">
+      <div class="col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-3 col-sm-10 col-sm-offset-1 margin-top">
+        <h2 class="tit text-center margin-tb">咖啡的基本冲调方法</h2>
+        <p class="text-indent text-bold text-lg" style="line-height: 30px;">
+          以下任一的方法冲泡出咖啡液，但浓度需是热咖啡浓度的2倍，在玻璃杯中注入冰块，加入咖啡使其快速冷冻。或是将咖啡壶放在冰冷的水中冷却，再放到冰箱冷藏，但须注意一点是冷却的时间过长，会结成冰块或导致味道变质。</p>
+      </div>
     </div>
-    <div class="bg-white visible-sm">
-        <div class="row">
-            <div class="col-sm-10 col-sm-offset-1 margin-top">
-                <h2 class="tit text-center margin-tb">咖啡的基本冲调方法</h2>
-                <p class="text-indent text-bold text-lg" style="line-height: 30px;">
-                    以下任一的方法冲泡出咖啡液，但浓度需是热咖啡浓度的2倍，在玻璃杯中注入冰块，加入咖啡使其快速冷冻。或是将咖啡壶放在冰冷的水中冷却，再放到冰箱冷藏，但须注意一点是冷却的时间过长，会结成冰块或导致味道变质。</p>
-            </div>
+    <div class="bg-white visible-sm visible-xs">
+      <div class="row">
+        <div class="col-sm-10 col-sm-offset-1 margin-top">
+          <h2 class="tit text-center margin-tb">咖啡的基本冲调方法</h2>
+          <p class="text-indent text-bold text-lg padding-lr" style="line-height: 30px;">
+            以下任一的方法冲泡出咖啡液，但浓度需是热咖啡浓度的2倍，在玻璃杯中注入冰块，加入咖啡使其快速冷冻。或是将咖啡壶放在冰冷的水中冷却，再放到冰箱冷藏，但须注意一点是冷却的时间过长，会结成冰块或导致味道变质。</p>
         </div>
-        <div class="col-sm-10 col-sm-offset-1 margin-bottom">
-            <ul>
-                <li>
-                    新鲜的水经过煮沸后，会含有适量的二氧化碳可以增加咖啡的香味，但持续让水沸腾会令二氧化碳素蒸发减少，所以最佳的水温是95℃，水温太低会使咖啡味道无法完全释出，水温太高会让咖啡成分变质过多与不及部是不好的。
-                </li>
-                <li>以量a匙将中研摩的咖啡粉一人数份（一人份10~12g）倒入滴漏之中，再轻敲几下始表面成平坦。</li>
-                <li>用茶壶江水煮开后，倒入细嘴水壶中，由中心点轻稳地把开水（水温约95度）注入，缓慢地以螺旋方式始开水渗透且遍布咖啡粉为止。务必缓缓地倒入。</li>
-            </ul>
-        </div>
+      </div>
+      <div class="col-sm-10 col-sm-offset-1 margin-bottom">
+        <ul>
+          <li>
+            新鲜的水经过煮沸后，会含有适量的二氧化碳可以增加咖啡的香味，但持续让水沸腾会令二氧化碳素蒸发减少，所以最佳的水温是95℃，水温太低会使咖啡味道无法完全释出，水温太高会让咖啡成分变质过多与不及部是不好的。
+          </li>
+          <li>以量a匙将中研摩的咖啡粉一人数份（一人份10~12g）倒入滴漏之中，再轻敲几下始表面成平坦。</li>
+          <li>用茶壶江水煮开后，倒入细嘴水壶中，由中心点轻稳地把开水（水温约95度）注入，缓慢地以螺旋方式始开水渗透且遍布咖啡粉为止。务必缓缓地倒入。</li>
+        </ul>
+      </div>
     </div>
-</div>
+  </div>
 
-<div class="row padding-0 margin-0 bg-culture why">
+  <div class="row padding-0 margin-0 bg-culture why">
     <div class="relative container margin-tb">
-        <div class="title text-center margin-bottom">
-            <img class="inline-block" src="./images/tit_why.png" height="auto" width="300" alt=""/>
-            <span class="absolute text-xxl text-bold left-50 inline-block text-white"
+      <div class="title text-center margin-bottom">
+        <img class="inline-block" src="./images/tit_why.png" height="auto" width="300" alt=""/>
+        <span class="absolute text-xxl text-bold left-50 inline-block text-white"
                   style="width: 200px;top: 13px;margin-left: -75px;">为什么选择我们？</span>
+      </div>
+      <div class="reason-box w-10">
+        <div class="item col-md-4 col-sm-4 text-center relative">
+          <img class="pic-main" src="./images/bean3.png" alt="">
+          <img class="pic-btn absolute" src="./images/arrow.png" alt="">
+          <h3 class=" text-white text-center margin-top-lg">优质咖啡豆</h3>
+          <h4 class=" text-white text-center">Quality beans</h4>
         </div>
-        <div class="reason-box w-10">
-            <div class="item col-md-4 col-sm-4 text-center relative">
-                <img class="pic-main" src="./images/bean3.png" alt="">
-                <img class="pic-btn absolute" src="./images/arrow.png" alt="">
-                <h3 class=" text-white text-center margin-top-lg">优质咖啡豆</h3>
-                <h4 class=" text-white text-center">Quality beans</h4>
-            </div>
-            <div class="item col-md-4 col-sm-4 text-center relative">
-                <img class="pic-main" src="./images/milk.png" alt="">
-                <img class="pic-btn absolute" src="./images/arrow.png" alt="">
-                <h3 class=" text-white text-center margin-top-lg">鲜纯的牛奶</h3>
-                <h4 class=" text-white text-center">Delicious milk</h4>
-            </div>
-            <div class="item col-md-4 col-sm-4 text-center relative">
-                <img class="pic-main" src="./images/product2.png" alt="">
-                <img class="pic-btn absolute" src="./images/arrow.png" alt="">
-                <h3 class=" text-white text-center margin-top-lg">美味的咖啡</h3>
-                <h4 class=" text-white text-center">Prefect coffee</h4>
-            </div>
+        <div class="item col-md-4 col-sm-4 text-center relative">
+          <img class="pic-main" src="./images/milk.png" alt="">
+          <img class="pic-btn absolute" src="./images/arrow.png" alt="">
+          <h3 class=" text-white text-center margin-top-lg">鲜纯的牛奶</h3>
+          <h4 class=" text-white text-center">Delicious milk</h4>
         </div>
+        <div class="item col-md-4 col-sm-4 text-center relative">
+          <img class="pic-main" src="./images/product2.png" alt="">
+          <img class="pic-btn absolute" src="./images/arrow.png" alt="">
+          <h3 class=" text-white text-center margin-top-lg">美味的咖啡</h3>
+          <h4 class=" text-white text-center">Prefect coffee</h4>
+        </div>
+      </div>
     </div>
-</div>
+  </div>
 
-<div class="row padding-0 margin-0 life">
+  <div class="row padding-0 margin-0 life">
     <div class="container margin-tb-xl">
-        <div class="col-md-5 coffee text-center">
-            <img class="w-10" src="./images/culture-coffee.png" alt="">
+      <div class="col-md-5 coffee text-center">
+        <img class="w-10" src="./images/culture-coffee.png" alt="">
         </div>
-        <div class="col-md-7">
-            <div class="title text-center margin-bottom">
-                <img class="inline-block" src="./images/tit-life.png" height="auto" width="300" alt=""/>
-                <span class="absolute text-xxl text-bold left-50 inline-block"
+      <div class="col-md-7">
+        <div class="title text-center margin-bottom">
+          <img class="inline-block" src="./images/tit-life.png" height="auto" width="300" alt=""/>
+          <span class="absolute text-xxl text-bold left-50 inline-block"
                       style="width: 200px;top: 23px;margin-left: -75px;">咖啡的日常生活妙用</span>
-            </div>
-            <p class="text-indent" style="line-height: 24px;">
-                美国康奈尔大学一项新研究发现,每天喝1杯咖啡可降低衰老、糖尿病和青光眼导致的视网膜退化危险。新研究中,康奈尔大学食品科学教授李教授及其同事让一些实验鼠的眼睛接触一氧化氮气体,该气体会导致氧化压力和自由基产生,接触该气体更容易导致视网膜退化病变。对比研究结果发现,与未接受抗氧化剂绿原酸(
-                CLA )预处理的实验鼠相比,接受过该技术处理的实验鼠即使置身一氧化氮中也未发生视网膜变性。
-            </p>
-            <div class="margin-top-lg">
-                <div class="col-md-6">
-                    <h4 class="tit text-bold">美味升级</h4>
-                    <p class="text-indent">烹饪秘方加一点点咖啡，会让你的菜有与众不同的味道，这在辣椒、冰淇淋和巧克力蛋糕中尤为突出。如果在做牛排的时候加一点咖啡。不仅让肉质更嫩，还会有一股浓浓的烟熏美味。</p>
-                </div>
-                <div class="col-md-6">
-                    <h4 class="tit text-bold">美味瘦身</h4>
-                    <p class="text-indent">收啡含有大量矿物质、绿原酸、奎尼内脂、叶酸，烟酸等，经常饮用咖啡能提高肢体协调性，改善低落情绪，且针对代谢症候群，如肥胖、高血压、高血脂、糖尿病、痛风、结石等患者有辅助治疗的作用。也就是说，和啡对肥胖者来说相当于一种辅助性的药物。</p>
-                </div>
-            </div>
         </div>
+        <p class="text-indent" style="line-height: 24px;">
+          美国康奈尔大学一项新研究发现,每天喝1杯咖啡可降低衰老、糖尿病和青光眼导致的视网膜退化危险。新研究中,康奈尔大学食品科学教授李教授及其同事让一些实验鼠的眼睛接触一氧化氮气体,该气体会导致氧化压力和自由基产生,接触该气体更容易导致视网膜退化病变。对比研究结果发现,与未接受抗氧化剂绿原酸(
+          CLA )预处理的实验鼠相比,接受过该技术处理的实验鼠即使置身一氧化氮中也未发生视网膜变性。
+        </p>
+        <div class="margin-top-lg">
+          <div class="col-md-6">
+            <h4 class="tit text-bold">美味升级</h4>
+            <p class="text-indent">烹饪秘方加一点点咖啡，会让你的菜有与众不同的味道，这在辣椒、冰淇淋和巧克力蛋糕中尤为突出。如果在做牛排的时候加一点咖啡。不仅让肉质更嫩，还会有一股浓浓的烟熏美味。</p>
+          </div>
+          <div class="col-md-6">
+            <h4 class="tit text-bold">美味瘦身</h4>
+            <p class="text-indent">收啡含有大量矿物质、绿原酸、奎尼内脂、叶酸，烟酸等，经常饮用咖啡能提高肢体协调性，改善低落情绪，且针对代谢症候群，如肥胖、高血压、高血脂、糖尿病、痛风、结石等患者有辅助治疗的作用。也就是说，和啡对肥胖者来说相当于一种辅助性的药物。</p>
+          </div>
+        </div>
+      </div>
     </div>
-</div>
+  </div>
 
 
   <div class="alert-box fixed container right-0 a-fadeinB " style="display: none;">
@@ -217,82 +224,82 @@
     </div>
   </div>
 
-<!-- footer -->
-<div id="footer">
-  <div class="footer-bg">
-    <div class="container">
-      <div class="row padding-tb-lg">
-        <div class="col-md-6 col-xs-8">
-          <div class="row">
-            <div class="table">
-              <div class="th row text-bold text-df text-white hidden-sm">
-                <div class="col-md-2 padding-0"><a href="#">首页</a></div>
-                <div class="col-md-2 padding-0"><a href="./new_product.html">新品推荐</a></div>
-                <div class="col-md-2 padding-0"><a href="./activity.html">活动及优惠</a></div>
-                <div class="col-md-2 padding-0"><a href="./culture.html">咖啡文化</a></div>
-                <div class="col-md-2 padding-0"><a href="./comment.html">商品评论</a></div>
+  <!-- footer -->
+  <div id="footer">
+    <div class="footer-bg">
+      <div class="container">
+        <div class="row padding-tb-lg">
+          <div class="col-md-6 col-xs-8">
+            <div class="row">
+              <div class="table">
+                <div class="th row text-bold text-df text-white hidden-sm">
+                  <div class="col-md-2 padding-0"><a href="#">首页</a></div>
+                  <div class="col-md-2 padding-0"><a href="./new_product.html">新品推荐</a></div>
+                  <div class="col-md-2 padding-0"><a href="./activity.html">活动及优惠</a></div>
+                  <div class="col-md-2 padding-0"><a href="./culture.html">咖啡文化</a></div>
+                  <div class="col-md-2 padding-0"><a href="./comment.html">商品评论</a></div>
 
-              </div>
-              <div class="tb">
-                <div class="row text-sm">
-                  <div class="col-md-2 padding-0"></div>
-                  <div class="col-md-2 padding-0 padding-top-xs visible-md-block visible-lg-block">
-                    <p class="padding-top-xs text-white pointer" onclick="clickFooter()">当季新品</p>
-                    <p class="padding-top-xs text-white pointer" onclick="clickFooter()">招牌产品</p>
-                    <p class="padding-top-xs text-white pointer" onclick="clickFooter()">陌尘特色</p>
-                    <p class="padding-top-xs text-white pointer" onclick="clickFooter()">咖啡机</p>
-                  </div>
-                  <div class="col-md-2 padding-0 padding-top-xs visible-md-block visible-lg-block">
-                    <p class="padding-top-xs text-white pointer" onclick="clickFooter()">会员卡—陌卡</p>
-                    <p class="padding-top-xs text-white pointer" onclick="clickFooter()">最新活动</p>
-                    <p class="padding-top-xs text-white pointer" onclick="clickFooter()">订阅电子信息</p>
-                  </div>
-                  <div class="col-md-2 padding-0 padding-top-xs visible-md-block visible-lg-block">
-                    <p class="padding-top-xs text-white pointer" onclick="clickFooter()">当季新品</p>
-                    <p class="padding-top-xs text-white pointer" onclick="clickFooter()">咖啡种植</p>
-                    <p class="padding-top-xs text-white pointer" onclick="clickFooter()">咖啡烘焙</p>
-                    <p class="padding-top-xs text-white pointer" onclick="clickFooter()">咖啡伴侣</p>
-                  </div>
-                  <div class="col-md-2 padding-0 padding-top-xs visible-md-block visible-lg-block ">
-                    <p class="padding-top-xs text-white pointer" onclick="clickFooter()">关于陌尘</p>
-                    <p class="padding-top-xs text-white pointer" onclick="clickFooter()">社会责任</p>
-                    <p class="padding-top-xs text-white pointer" onclick="clickFooter()">就业机会</p>
-                    <p class="padding-top-xs text-white pointer" onclick="clickFooter()">特许经营</p>
-                  </div>
-                  <div class="col-md-2 padding-0 padding-top-xs visible-md-block visible-lg-block">
-                    <p class="padding-top-xs text-white pointer" onclick="clickFooter()">分点详情</p>
-                    <p class="padding-top-xs text-white pointer" onclick="clickFooter()">联络详情</p>
-                    <p class="padding-top-xs text-white pointer" onclick="clickFooter()">问题反馈</p>
-                    <p class="padding-top-xs text-white pointer" onclick="clickFooter()">隐私政策</p>
+                </div>
+                <div class="tb">
+                  <div class="row text-sm">
+                    <div class="col-md-2 padding-0"></div>
+                    <div class="col-md-2 padding-0 padding-top-xs visible-md-block visible-lg-block">
+                      <p class="padding-top-xs text-white pointer" onclick="clickFooter()">当季新品</p>
+                      <p class="padding-top-xs text-white pointer" onclick="clickFooter()">招牌产品</p>
+                      <p class="padding-top-xs text-white pointer" onclick="clickFooter()">陌尘特色</p>
+                      <p class="padding-top-xs text-white pointer" onclick="clickFooter()">咖啡机</p>
+                    </div>
+                    <div class="col-md-2 padding-0 padding-top-xs visible-md-block visible-lg-block">
+                      <p class="padding-top-xs text-white pointer" onclick="clickFooter()">会员卡—陌卡</p>
+                      <p class="padding-top-xs text-white pointer" onclick="clickFooter()">最新活动</p>
+                      <p class="padding-top-xs text-white pointer" onclick="clickFooter()">订阅电子信息</p>
+                    </div>
+                    <div class="col-md-2 padding-0 padding-top-xs visible-md-block visible-lg-block">
+                      <p class="padding-top-xs text-white pointer" onclick="clickFooter()">当季新品</p>
+                      <p class="padding-top-xs text-white pointer" onclick="clickFooter()">咖啡种植</p>
+                      <p class="padding-top-xs text-white pointer" onclick="clickFooter()">咖啡烘焙</p>
+                      <p class="padding-top-xs text-white pointer" onclick="clickFooter()">咖啡伴侣</p>
+                    </div>
+                    <div class="col-md-2 padding-0 padding-top-xs visible-md-block visible-lg-block ">
+                      <p class="padding-top-xs text-white pointer" onclick="clickFooter()">关于陌尘</p>
+                      <p class="padding-top-xs text-white pointer" onclick="clickFooter()">社会责任</p>
+                      <p class="padding-top-xs text-white pointer" onclick="clickFooter()">就业机会</p>
+                      <p class="padding-top-xs text-white pointer" onclick="clickFooter()">特许经营</p>
+                    </div>
+                    <div class="col-md-2 padding-0 padding-top-xs visible-md-block visible-lg-block">
+                      <p class="padding-top-xs text-white pointer" onclick="clickFooter()">分点详情</p>
+                      <p class="padding-top-xs text-white pointer" onclick="clickFooter()">联络详情</p>
+                      <p class="padding-top-xs text-white pointer" onclick="clickFooter()">问题反馈</p>
+                      <p class="padding-top-xs text-white pointer" onclick="clickFooter()">隐私政策</p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="col-md-4 col-xs-8 info text-white text-sm padding-top-xxs hidden-xs">
-          <div class="row padding-bottom-xs">地址：吉林省长春市朝阳区前进大街长春理工大学</div>
-          <div class="row padding-bottom-xs">电话：（082）400 880 08820</div>
-          <div class="row padding-bottom-xs">传真：（082）400 880 08820</div>
-          <div class="row padding-bottom-xs">邮箱：chenmo1212@qq.com</div>
-          <div class="row padding-bottom-xs">顾客服务热线：（082）400 880 08820</div>
-        </div>
-        <div class="col-md-2  col-xs-4">
-          <div class="row padding-top-xxs">
-            <div class="col-md-8 col-sm-8 col-xs-11">
-              <img src="./images/avatar.png" style="width: 100%;" alt="">
-              <div class="text-white text-center padding-top-xs pointer" onclick="toAboutMe()">查看“关于我"</div>
+          <div class="col-md-4 col-xs-8 info text-white text-sm padding-top-xxs hidden-xs">
+            <div class="row padding-bottom-xs">地址：吉林省长春市朝阳区前进大街长春理工大学</div>
+            <div class="row padding-bottom-xs">电话：（082）400 880 08820</div>
+            <div class="row padding-bottom-xs">传真：（082）400 880 08820</div>
+            <div class="row padding-bottom-xs">邮箱：chenmo1212@qq.com</div>
+            <div class="row padding-bottom-xs">顾客服务热线：（082）400 880 08820</div>
+          </div>
+          <div class="col-md-2  col-xs-4">
+            <div class="row padding-top-xxs">
+              <div class="col-md-8 col-sm-8 col-xs-11">
+                <img src="./images/avatar.png" style="width: 100%;" alt="">
+                <div class="text-white text-center padding-top-xs pointer" onclick="toAboutMe()">查看“关于我"</div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
 
-<script src="./js/jquery.min.js"></script>
-<script src="./js/bootstrap.min.js"></script>
-<script src="./js/common.js"></script>
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/common.js"></script>
 </body>
 
 </html>
