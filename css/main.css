@@ -27,6 +27,9 @@ button,
   border: 1px solid #aaa;
 }
 
+textarea {
+  outline: none;
+}
 /*
 * header
 */
@@ -36,6 +39,14 @@ button,
 
 .navbar-toggle span {
   background-color: #000;
+}
+#header .tit{
+  height: 30px;
+  width: 100px;
+  left: 50%;
+  margin-left: -50px;
+  top: 15px;
+  text-align: center;
 }
 
 @media (min-width: 768px) {

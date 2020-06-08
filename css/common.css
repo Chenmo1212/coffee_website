@@ -429,6 +429,11 @@
     padding-left: 50px;
 }
 
+.padding-lr-0 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .padding-lr-xs {
     padding-left: 10px;
     padding-right: 10px;
