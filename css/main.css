@@ -423,8 +423,6 @@ img.thumb {
   transition: all 0.3s ease-in-out;
 }
 
-.more-btn .btn {}
-
 .popup {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -520,19 +518,19 @@ img.thumb {
   line-height: 1.5;
 }
 
-body:target .popup {
+:target {
   visibility: visible;
   opacity: 1;
 }
 
-body:target .popup-inner {
+:target .popup-inner {
   bottom: 0;
   right: 0;
   -webkit-transform: rotate(0);
   transform: rotate(0);
 }
 
-body:target {
+:target {
   overflow: hidden !important;
 }
 
@@ -557,6 +555,29 @@ body:target {
 .alert-box {
   top: 20px;
   z-index: 99;
+}
+
+@media (max-width: 760px) {
+  .popup__photo {
+    display: none;
+  }
+  .popup__text {
+    width: 100%;
+  }
+  .popup-inner {
+    width: 90%;
+    top: 5%;
+  }
+}
+
+@media (max-width: 1120px) {
+  .popup__text {
+    width: 100%;
+  }
+  .popup-inner {
+    width: 80%;
+    top: 5%;
+  }
 }
 
 /*
@@ -772,17 +793,18 @@ body:target {
 }
 
 .loading-box .mask {
-  position: absolute;
+  position: fixed;
   background-color: rgba(0, 0, 0, 0.3);
   width: 100vw;
   height: 100vh;
+  overflow: hidden;
   top: 0;
   z-index: 99998;
 }
 
 .loading-box #loading {
   z-index: 99999;
-  position: absolute;
+  position: fixed;
   left: 50%;
   margin-left: -50px;
   top: 50%;

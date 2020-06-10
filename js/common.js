@@ -1,5 +1,4 @@
   // 轮播图js
-  
 var src = window.location.href;
 if (src.indexOf("index.html") >= 0){
 
