@@ -2,218 +2,364 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>下单</title>
-  <!-- Bootstrap -->
-  <link href="./css/bootstrap.min.css" rel="stylesheet">
-  <link href="./css/main.css" rel="stylesheet">
-  <link href="./css/common.css" rel="stylesheet">
-  <style media="screen">
-    html {
-      height: 100%;
-    }
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>下单</title>
+    <!-- Bootstrap -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/main.css" rel="stylesheet">
+    <link href="./css/common.css" rel="stylesheet">
+    <style media="screen">
+        html {
+            height: 100%;
+        }
 
-    body {
-      background-color: rgb(237, 235, 233);
-      font-family: 'Lato', sans-serif;
-    }
+        body {
+            background-color: rgb(237, 235, 233);
+            font-family: 'Lato', sans-serif;
+        }
 
-    a {
-      text-decoration: none;
-      font-weight: bold;
-    }
+        a {
+            text-decoration: none;
+            font-weight: bold;
+        }
 
-    @media (max-width: 768px) {
-      #contact {
-        margin: 100px auto 0;
-      }
-    }
+        @media (max-width: 768px) {
+            #contact {
+                margin: 170px auto 0;
+            }
+        }
 
-    @media (min-width: 768px) {
-      #contact {
-        margin: 200px auto 0;
-      }
-    }
-  </style>
+        @media (min-width: 768px) {
+            #contact {
+                margin: 200px auto 0;
+            }
+        }
+    </style>
 </head>
 
 <body>
-  <!--header-->
-  <div id="header">
+<!--header-->
+<div id="header">
     <nav class="nav navbar-fixed-top" style="background-color: #fff;">
-      <div class="container">
-        <div class="navbar-header">
-          <!--在移动端的时候导航条折叠起来，三横的样式出现，点击该样式可以显示或隐藏导航条上的内容-->
-          <button class="navbar-toggle" data-toggle="collapse" data-target="#menu">
-                  <span class="icon-bar text-black"></span>
-                  <span class="icon-bar text-black"></span>
-                  <span class="icon-bar text-black"></span>
-              </button>
-          <a href="#" class="logo"><img src="./images/logo.png" alt="" height="100%"></a>
-          <span class="absolute text-xxl text-bold tit visible-xs inline-block">陌尘咖啡</span>
-        </div>
-        <div id="menu" class="collapse navbar-collapse text-center">
-          <div class="nav">
-            <div class="menu-item padding-lr">
-              <a href="./index.html">
-                    <span class="block row text-lg text-bold nav-tit">首页</span>
-                    <span class="block row text-grey nav-tit-en">Home Page</span>
-                </a>
+        <div class="container">
+            <div class="navbar-header">
+                <!--在移动端的时候导航条折叠起来，三横的样式出现，点击该样式可以显示或隐藏导航条上的内容-->
+                <button class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+                    <span class="icon-bar text-black"></span>
+                    <span class="icon-bar text-black"></span>
+                    <span class="icon-bar text-black"></span>
+                </button>
+                <a href="#" class="logo"><img src="./images/logo.png" alt="" height="100%"></a>
+                <span class="absolute text-xxl text-bold tit visible-xs inline-block">陌尘咖啡</span>
             </div>
-            <div class="menu-item padding-lr">
-              <a href="./new_product.html">
-                    <span class="block row text-lg text-bold nav-tit">新品推荐</span>
-                    <span class="block row text-grey nav-tit-en">New Products</span>
-                </a>
-            </div>
-            <div class="menu-item padding-lr">
-              <a href="./activity.html">
-                    <span class="block row text-lg text-bold nav-tit">活动及优惠</span>
-                    <span class="block row text-grey nav-tit-en">Activities and preferential</span>
-                </a>
-            </div>
+            <div id="menu" class="collapse navbar-collapse text-center">
+                <div class="nav">
+                    <div class="menu-item padding-lr">
+                        <a href="./index.html">
+                            <span class="block row text-lg text-bold nav-tit">首页</span>
+                            <span class="block row text-grey nav-tit-en">Home Page</span>
+                        </a>
+                    </div>
+                    <div class="menu-item padding-lr">
+                        <a href="./new_product.html">
+                            <span class="block row text-lg text-bold nav-tit">新品推荐</span>
+                            <span class="block row text-grey nav-tit-en">New Products</span>
+                        </a>
+                    </div>
+                    <div class="menu-item padding-lr">
+                        <a href="./activity.html">
+                            <span class="block row text-lg text-bold nav-tit">活动及优惠</span>
+                            <span class="block row text-grey nav-tit-en">Activities and preferential</span>
+                        </a>
+                    </div>
 
-            <div id="logo"><a href="#"><img src="./images/logo.png" alt=""></a></div>
+                    <div id="logo"><a href="#"><img src="./images/logo.png" alt=""></a></div>
 
-            <div class="menu-item padding-lr">
-              <a href="./culture.html">
-                        <span class="block row text-lg text-bold nav-tit">咖啡文化</span>
-                        <span class="block row text-grey nav-tit-en">Coffee culture</span>
-                </a>
+                    <div class="menu-item padding-lr">
+                        <a href="./culture.html">
+                            <span class="block row text-lg text-bold nav-tit">咖啡文化</span>
+                            <span class="block row text-grey nav-tit-en">Coffee culture</span>
+                        </a>
+                    </div>
+                    <div class="menu-item padding-lr">
+                        <a href="./comment.html">
+                            <span class="block row text-lg text-bold nav-tit">商品评价</span>
+                            <span class="block row text-grey nav-tit-en">Product evaluation</span>
+                        </a>
+                    </div>
+                    <div class="menu-item padding-lr active">
+                        <a href="./submitOrder.html">
+                            <span class="block row text-lg text-bold nav-tit">提交订单</span>
+                            <span class="block row text-grey nav-tit-en">Submit Orders</span>
+                        </a>
+                    </div>
+                </div>
             </div>
-            <div class="menu-item padding-lr">
-              <a href="./comment.html">
-                  <span class="block row text-lg text-bold nav-tit">商品评价</span>
-                  <span class="block row text-grey nav-tit-en">Product evaluation</span>
-              </a>
-            </div>
-            <div class="menu-item padding-lr active">
-              <a href="./submitOrder.html">
-                  <span class="block row text-lg text-bold nav-tit">提交订单</span>
-                  <span class="block row text-grey nav-tit-en">Submit Orders</span>
-              </a>
-            </div>
-          </div>
         </div>
-      </div>
     </nav>
-  </div>
+</div>
 
-  <div style="text-align:center;clear:both">
-  </div>
-  <!-- Contact form -->
-  <form action="" id="contact">
+<div style="text-align:center;clear:both">
+</div>
+<!-- Contact form -->
+<form action="" id="contact">
 
     <!-- Logo, title and informative content -->
-    <div id="logo" class="bouncing">
-      <img src="./images/logo.png" alt="" width="100%">
+    <div id="logo2" class="bouncing">
+        <img src="./images/logo.png" alt="" width="100%">
     </div>
 
-    <h1 id="title"> Submit orders  </h1>
+    <h1 id="title"> Submit orders </h1>
     <p id="pre">您可以在此处选择商品提交订单，并在备注信息中输入您预订什么时候来取您的商品，我们可以提前帮你制作好，然后等待您来取货。
     </p>
     <p id="post" class="text-content">
-      订单提交成功 ! <br/>
-			我们会尽快给您一个回复<br/>
-			与此同时，您也可以继续逛我们的 <a href='./activity.html' target='_blank'>最新活动</a>.
+        订单提交成功 ! <br/>
+        我们会尽快给您一个回复<br/>
+        与此同时，您也可以继续逛我们的 <a href='./activity.html' target='_blank'>最新活动</a>.
     </p>
 
     <!-- Form fields wrapper -->
     <div id="wrapper" class="clearfix">
 
-      <!-- Name -->
-      <div class="input-group">
-        <span class="input-group-addon glyphicon glyphicon-user"></span>
-        <input type="text" class="form-control" placeholder="用户名" aria-describedby="basic-addon1">
-      </div>
+        <!-- Name -->
+        <div class="input-group">
+            <span class="input-group-addon glyphicon glyphicon-user"></span>
+            <input type="text" class="form-control" placeholder="用户名" aria-describedby="basic-addon1">
+        </div>
 
-      <!-- Email -->
-      <div class="input-group margin-top-sm">
-        <span class="input-group-addon glyphicon glyphicon-phone" id="basic-addon1"></span>
-        <input type="phone" class="form-control" placeholder="手机号码" required>
-      </div>
-      <!-- 样式1 -->
-      <select class="form-control margin-tb-sm">
-  			<option>未选择商品</option>
-  			<option>阿馥奇朵</option>
-  			<option>麦芽雪冷萃</option>
-  			<option>冷萃浮乐朵</option>
-  			<option>气致-冷萃浮乐朵</option>
-  			<option>冷萃冰咖啡</option>
-  			<option>轻甜奶油冷萃</option>
-		  </select>
+        <!-- Email -->
+        <div class="input-group margin-top-sm">
+            <span class="input-group-addon glyphicon glyphicon-phone" id="basic-addon1"></span>
+            <input type="phone" class="form-control" placeholder="手机号码" required>
+        </div>
 
-      <!-- Contact -->
-      <textarea name="" id="" placeholder="输入备注信息" class="margin-bottom-sm" required></textarea>
+        <!-- 样式1 -->
+        <select class="form-control margin-tb-sm">
+            <option>未选择商品</option>
+            <option>阿馥奇朵</option>
+            <option>麦芽雪冷萃</option>
+            <option>冷萃浮乐朵</option>
+            <option>气致-冷萃浮乐朵</option>
+            <option>冷萃冰咖啡</option>
+            <option>轻甜奶油冷萃</option>
+        </select>
 
-      <!-- Submit -->
-      <button id="submit" type="submit" >
-				 提交订单
-			</button>
+        <!-- Email -->
+        <div class="swappy-radios margin-top-sm" role="radiogroup" aria-labelledby="swappy-radios-label">
+            <span id="swappy-radios-label">选择规格</span>
+            <label>
+                <input type="radio" name="options" checked/><span class="radio"></span>
+                <span class="text-sm">小杯</span>
+            </label>
+            <label>
+                <input type="radio" name="options"/><span class="radio"></span>
+                <span class="text-sm">中杯</span>
+            </label>
+            <label>
+                <input type="radio" name="options"/><span class="radio"></span>
+                <span class="text-sm">大杯</span>
+            </label>
+            <label>
+                <input type="radio" name="options"/><span class="radio"></span>
+                <span class="text-sm">超大杯</span>
+            </label>
+        </div>
+
+        <!-- Contact -->
+        <textarea name="" id="" placeholder="输入备注信息" class="margin-bottom-sm" required></textarea>
+
+        <!-- Submit -->
+        <button id="submit" type="submit">
+            提交订单
+        </button>
 
     </div>
-  </form>
+</form>
 
-  <!-- flash loading -->
-  <div class="loading-box" id="loading-box" style="display: none;">
+<!-- flash loading -->
+<div class="loading-box" id="loading-box" style="display: none;">
     <div class="loading-bg w-10 h-10 mask"></div>
     <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="100" height="100" id="loading" align="middle">
-        <param name="movie" value="./swf/loading1.swf" />
-        <param name="quality" value="high" />
-        <param name="bgcolor" value="#ffffff" />
-        <param name="play" value="true" />
-        <param name="loop" value="true" />
-        <param name="wmode" value="window" />
-        <param name="scale" value="showall" />
-        <param name="menu" value="true" />
-        <param name="devicefont" value="false" />
-        <param name="salign" value="" />
-        <param name="allowScriptAccess" value="sameDomain" />
+        <param name="movie" value="./swf/loading1.swf"/>
+        <param name="quality" value="high"/>
+        <param name="bgcolor" value="#ffffff"/>
+        <param name="play" value="true"/>
+        <param name="loop" value="true"/>
+        <param name="wmode" value="window"/>
+        <param name="scale" value="showall"/>
+        <param name="menu" value="true"/>
+        <param name="devicefont" value="false"/>
+        <param name="salign" value=""/>
+        <param name="allowScriptAccess" value="sameDomain"/>
         <!--[if !IE]>-->
         <object type="application/x-shockwave-flash" data="./swf/loading1.swf" width="100" height="100">
-          <param name="movie" value="./swf/loading1.swf" />
-          <param name="quality" value="high" />
-          <param name="bgcolor" value="#ffffff" />
-          <param name="play" value="true" />
-          <param name="loop" value="true" />
-          <param name="wmode" value="window" />
-          <param name="scale" value="showall" />
-          <param name="menu" value="true" />
-          <param name="devicefont" value="false" />
-          <param name="salign" value="" />
-          <param name="allowScriptAccess" value="sameDomain" />
-        <!--<![endif]-->
-          <a href="http://www.adobe.com/go/getflash">
-            <img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="获得 Adobe Flash Player" />
-          </a>
-        <!--[if !IE]>-->
+            <param name="movie" value="./swf/loading1.swf"/>
+            <param name="quality" value="high"/>
+            <param name="bgcolor" value="#ffffff"/>
+            <param name="play" value="true"/>
+            <param name="loop" value="true"/>
+            <param name="wmode" value="window"/>
+            <param name="scale" value="showall"/>
+            <param name="menu" value="true"/>
+            <param name="devicefont" value="false"/>
+            <param name="salign" value=""/>
+            <param name="allowScriptAccess" value="sameDomain"/>
+            <!--<![endif]-->
+            <a href="http://www.adobe.com/go/getflash">
+                <img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif"
+                     alt="获得 Adobe Flash Player"/>
+            </a>
+            <!--[if !IE]>-->
         </object>
-    <!--<![endif]-->
+        <!--<![endif]-->
     </object>
-  </div>
+</div>
 
-  <script src="./js/jquery.min.js"></script>
-  <script src="./js/bootstrap.min.js"></script>
-  <script type="text/javascript">
-    $(document).on('submit', '#contact', function(e) {
-      console.log(e);
-      e.preventDefault();
-      $("#loading-box").css({
-        display: ""
-      });
-
-      setTimeout(function() {
+<script src="./js/jquery.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script type="text/javascript">
+    $(document).on('submit', '#contact', function (e) {
+        console.log(e);
+        e.preventDefault();
         $("#loading-box").css({
-          display: "none"
+            display: ""
         });
-        // $("#loading-box").css("display","");
-        $('#contact').addClass('submitted');
-        $('#contact #logo').removeClass('bouncing');
-      }, 3000);
+
+        setTimeout(function () {
+            $("#loading-box").css({
+                display: "none"
+            });
+            // $("#loading-box").css("display","");
+            $('#contact').addClass('submitted');
+            $('#contact #logo').removeClass('bouncing');
+        }, 3000);
     });
-  </script>
+
+    let currentValue = 1;
+    const timeout = 0.75;
+    const radios = document.querySelectorAll('.swappy-radios input');
+    const fakeRadios = document.querySelectorAll('.swappy-radios .radio');
+
+    const firstRadioY = document.querySelector('.swappy-radios label:nth-of-type(1) .radio').getBoundingClientRect().y;
+    const secondRadioY = document.querySelector('.swappy-radios label:nth-of-type(2) .radio').getBoundingClientRect().y;
+    const indicitiveDistance = secondRadioY - firstRadioY;
+    //End suckyness :D
+
+    //Apply CSS delays in JS, so that if JS doesn't load, it doesn't delay selected radio colour change
+    //I'm applying background style delay here so that it doesn't appear slow if JS is disabled/broken
+    fakeRadios.forEach(function (radio) {
+        radio.style.cssText = `transition: background 0s ${timeout}s;`;
+    });
+    //Have to do this bit the long way (i.e. with a <style> element) becuase you can't do inline pseudo element syles
+    const css = `.radio::after {transition: opacity 0s ${timeout}s;}`
+    const head = document.head;
+    const style = document.createElement('style');
+    style.type = 'text/css';
+    style.appendChild(document.createTextNode(css));
+    head.appendChild(style);
+    //End no-js animation fallbacks.
+
+    radios.forEach(function (radio, i) {
+        //Add an attr to make finding and styling the correct element a lot easier
+        radio.parentElement.setAttribute('data-index', i + 1);
+
+        //The meat: set up the change listener!
+        radio.addEventListener('change', function () {
+            //Stop weirdness of incomplete animation occuring. disable radios until complete.
+            temporarilyDisable();
+
+            //remove old style tag
+            removeStyles();
+            const nextValue = this.parentElement.dataset.index;
+
+            const oldRadio = document.querySelector(`[data-index="${currentValue}"] .radio`);
+            const newRadio = this.nextSibling;
+            const oldRect = oldRadio.getBoundingClientRect();
+            const newRect = newRadio.getBoundingClientRect();
+
+            //Pixel distance between previous and newly-selected radios
+            const yDiff = Math.abs(oldRect.y - newRect.y);
+
+            //Direction. Is the new option higher or lower than the old option?
+            const dirDown = oldRect.y - newRect.y > 0 ? true : false;
+
+            //Figure out which unselected radios actually need to move
+            //(we don't necessarily want to move them all)
+            const othersToMove = [];
+            const lowEnd = Math.min(currentValue, nextValue);
+            const highEnd = Math.max(currentValue, nextValue);
+
+            const inBetweenies = range(lowEnd, highEnd, dirDown);
+            let othersCss = '';
+            inBetweenies.map(option => {
+                //If there's more than one, add a subtle stagger effect
+                const staggerDelay = inBetweenies.length > 1 ? 0.1 / inBetweenies.length * option : 0;
+                othersCss += `
+        [data-index="${option}"] .radio {
+          animation: moveOthers ${timeout - staggerDelay}s ${staggerDelay}s;
+        }
+      `;
+            });
+
+            const css = `
+      ${othersCss}
+      [data-index="${currentValue}"] .radio {
+        animation: moveIt ${timeout}s;
+      }
+      @keyframes moveIt {
+        0% { transform: translateX(0); }
+        33% { transform: translateX(-3rem) translateY(0); }
+        66% { transform: translateX(-3rem) translateY(${dirDown ? '-' : ''}${yDiff}px); }
+        100% { transform: translateX(0) translateY(${dirDown ? '-' : ''}${yDiff}px); }
+      }
+      @keyframes moveOthers {
+        0% { transform: translateY(0); }
+        33% { transform: translateY(0); }
+        66% { transform: translateY(${dirDown ? '' : '-'}${indicitiveDistance}px); }
+        100% { transform: translateY(${dirDown ? '' : '-'}${indicitiveDistance}px); }
+      }
+  `;
+            appendStyles(css);
+            currentValue = nextValue;
+        });
+    });
+
+    function appendStyles(css) {
+        const head = document.head;
+        const style = document.createElement('style');
+        style.type = 'text/css';
+        style.id = 'swappy-radio-styles';
+        style.appendChild(document.createTextNode(css));
+        head.appendChild(style);
+    }
+
+    function removeStyles() {
+        const node = document.getElementById('swappy-radio-styles');
+        if (node && node.parentNode) {
+            node.parentNode.removeChild(node);
+        }
+    }
+
+    function range(start, end, dirDown) {
+        let extra = 1;
+        if (dirDown) {
+            extra = 0;
+        }
+        return [...Array(end - start).keys()].map(v => start + v + extra);
+    }
+
+    function temporarilyDisable() {
+        radios.forEach((item) => {
+            item.setAttribute('disabled', true);
+            setTimeout(() => {
+                item.removeAttribute('disabled');
+            }, timeout * 1000);
+        });
+    }
+</script>
 </body>
 
 </html>
