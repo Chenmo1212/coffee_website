@@ -667,6 +667,24 @@ img.thumb {
   -webkit-transform: translate(0, -1000px) !important;
 }
 
+@media (max-width: 768px) {
+  .card_wrap {
+    top: 0;
+    left: 2%;
+    width: 96%;
+    height: 600px;
+  }
+  .close.relative {
+    padding: 5px;
+  }
+  .card_cont .op-list {
+    margin-top: 10px;
+  }
+  .card_cont.content {
+    height: 577px!important;
+  }
+}
+
 /*
 * article
 */
