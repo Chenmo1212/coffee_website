@@ -2,403 +2,456 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>商品评价</title>
-  <link href="./css/bootstrap.min.css" rel="stylesheet">
-  <link href="./css/main.css" rel="stylesheet">
-  <link href="./css/common.css" rel="stylesheet">
-  <style type="text/css">
-    body {
-      background: #edebe9;
-    }
-    #header {
-      background-color: #fff;
-    }
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>商品评价</title>
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/main.css" rel="stylesheet">
+    <link href="./css/common.css" rel="stylesheet">
+    <style type="text/css">
+        body {
+            background: #edebe9;
+        }
 
-    #gallery-wrapper p {
-      color: #ff6d00;
-    }
+        #header {
+            background-color: #fff;
+        }
 
-    .underline:hover {
-      text-decoration: underline;
-    }
+        #gallery-wrapper p {
+            color: #ff6d00;
+        }
 
-    .bg-gray {
-      background-color: #eee;
-    }
-    @media (max-width: 768px) {
-      #footer {
-        margin-top: 150px;
-      }
-    }
-  </style>
+        .underline:hover {
+            text-decoration: underline;
+        }
+
+        .bg-gray {
+            background-color: #eee;
+        }
+
+        @media (max-width: 768px) {
+            #footer {
+                margin-top: 150px;
+            }
+        }
+    </style>
 </head>
 
 <body>
-  <!-- header -->
-  <div id="header">
+<!-- header -->
+<div id="header">
     <nav class="nav navbar-fixed-top" style="background-color: #fff;">
-      <div class="container">
-        <div class="navbar-header">
-          <!--在移动端的时候导航条折叠起来，三横的样式出现，点击该样式可以显示或隐藏导航条上的内容-->
-          <button class="navbar-toggle" data-toggle="collapse" data-target="#menu">
-                  <span class="icon-bar text-black"></span>
-                  <span class="icon-bar text-black"></span>
-                  <span class="icon-bar text-black"></span>
-              </button>
-          <a href="#" class="logo"><img src="./images/logo.png" alt="" height="100%"></a>
-          <span class="absolute text-xxl text-bold tit visible-xs inline-block">陌尘咖啡</span>
-        </div>
-        <div id="menu" class="collapse navbar-collapse text-center">
-          <div class="nav">
-            <div class="menu-item padding-lr">
-              <a href="./index.html">
-                    <span class="block row text-lg text-bold nav-tit">首页</span>
-                    <span class="block row text-grey nav-tit-en">Home Page</span>
-                </a>
+        <div class="container">
+            <div class="navbar-header">
+                <!--在移动端的时候导航条折叠起来，三横的样式出现，点击该样式可以显示或隐藏导航条上的内容-->
+                <button class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+                    <span class="icon-bar text-black"></span>
+                    <span class="icon-bar text-black"></span>
+                    <span class="icon-bar text-black"></span>
+                </button>
+                <a href="#" class="logo"><img src="./images/logo.png" alt="" height="100%"></a>
+                <span class="absolute text-xxl text-bold tit visible-xs inline-block">陌尘咖啡</span>
             </div>
-            <div class="menu-item padding-lr">
-              <a href="./new_product.html">
-                    <span class="block row text-lg text-bold nav-tit">新品推荐</span>
-                    <span class="block row text-grey nav-tit-en">New Products</span>
-                </a>
-            </div>
-            <div class="menu-item padding-lr">
-              <a href="./activity.html">
-                    <span class="block row text-lg text-bold nav-tit">活动及优惠</span>
-                    <span class="block row text-grey nav-tit-en">Activities and preferential</span>
-                </a>
-            </div>
+            <div id="menu" class="collapse navbar-collapse text-center">
+                <div class="nav">
+                    <div class="menu-item padding-lr">
+                        <a href="./index.html">
+                            <span class="block row text-lg text-bold nav-tit">首页</span>
+                            <span class="block row text-grey nav-tit-en">Home Page</span>
+                        </a>
+                    </div>
+                    <div class="menu-item padding-lr">
+                        <a href="./new_product.html">
+                            <span class="block row text-lg text-bold nav-tit">新品推荐</span>
+                            <span class="block row text-grey nav-tit-en">New Products</span>
+                        </a>
+                    </div>
+                    <div class="menu-item padding-lr">
+                        <a href="./activity.html">
+                            <span class="block row text-lg text-bold nav-tit">活动及优惠</span>
+                            <span class="block row text-grey nav-tit-en">Activities and preferential</span>
+                        </a>
+                    </div>
 
-            <div id="logo"><a href="#"><img src="./images/logo.png" alt=""></a></div>
-            <div class="menu-item padding-lr">
-              <a href="./culture.html">
-                        <span class="block row text-lg text-bold nav-tit">咖啡文化</span>
-                        <span class="block row text-grey nav-tit-en">Coffee culture</span>
-                </a>
+                    <div id="logo"><a href="#"><img src="./images/logo.png" alt=""></a></div>
+                    <div class="menu-item padding-lr">
+                        <a href="./culture.html">
+                            <span class="block row text-lg text-bold nav-tit">咖啡文化</span>
+                            <span class="block row text-grey nav-tit-en">Coffee culture</span>
+                        </a>
+                    </div>
+                    <div class="menu-item padding-lr active">
+                        <a href="./comment.html">
+                            <span class="block row text-lg text-bold nav-tit">商品评价</span>
+                            <span class="block row text-grey nav-tit-en">Product evaluation</span>
+                        </a>
+                    </div>
+                    <div class="menu-item padding-lr">
+                        <a href="./submitOrder.html">
+                            <span class="block row text-lg text-bold nav-tit">提交订单</span>
+                            <span class="block row text-grey nav-tit-en">Submit Orders</span>
+                        </a>
+                    </div>
+                </div>
             </div>
-            <div class="menu-item padding-lr active">
-              <a href="./comment.html">
-                  <span class="block row text-lg text-bold nav-tit">商品评价</span>
-                  <span class="block row text-grey nav-tit-en">Product evaluation</span>
-              </a>
-            </div>
-            <div class="menu-item padding-lr">
-              <a href="./submitOrder.html">
-                  <span class="block row text-lg text-bold nav-tit">提交订单</span>
-                  <span class="block row text-grey nav-tit-en">Submit Orders</span>
-              </a>
-            </div>
-          </div>
         </div>
-      </div>
     </nav>
-  </div>
+</div>
 
-  <!-- banner -->
-  <div class="cover relative header-space" style="width: 100%;overflow: hidden;">
+<!-- banner -->
+<div class="cover relative header-space" style="width: 100%;overflow: hidden;">
     <div class="bg gray" style="max-height: 500px;">
-      <img src="./images/4.jpg" alt="" style="width: 100%;">
+        <img src="./images/4.jpg" alt="" style="width: 100%;">
     </div>
     <div class="w-10 absolute top-0 left-0 h-10">
-      <div class="img-box container text-center h-100 over-hidden padding-0">
-        <img src="./images/13.png" alt="" class="inline-block" style="height: 100%;">
+        <div class="img-box container text-center h-100 over-hidden padding-0">
+            <img src="./images/13.png" alt="" class="inline-block" style="height: 100%;">
         </div>
     </div>
-  </div>
+</div>
 
-  <!-- 导航 -->
-  <div class="well margin-0">
+<!-- 导航 -->
+<div class="well margin-0">
     <div class="container">
-      <div class="title text-bold text-lg fl">
-        产品评价
-      </div>
-      <div class="item-group flex fr justify-end">
-        <div class="title padding-left-sm pointer underline"><a href="#popup">我要评论</a></div>
-      </div>
+        <div class="title text-bold text-lg fl">
+            产品评价
+        </div>
+        <div class="item-group flex fr justify-end">
+            <div class="title padding-left-sm pointer underline"><a href="#popup">我要评论</a></div>
+        </div>
     </div>
-  </div>
+</div>
 
-  <section id="gallery-wrapper">
+<section id="gallery-wrapper">
     <article class="white-panel"><a href="./comment_content.html">
         <img src="./images/comment/17.jpg" class="thumb" alt="">
         <h1><a href="./comment_content.html">阿馥奇朵™</a></h1>
-      <p>★★★★★</p>
-      </a>
+        <p>★★★★★</p>
+    </a>
     </article>
     <article class="white-panel"><a href="./comment_content.html">
         <img src="./images/comment/18.jpg" class="thumb" alt="">
         <h1><a href="./comment_content.html">麦芽雪冷萃</a></h1>
-      <p>★★★★★</p>
-      </a>
+        <p>★★★★★</p>
+    </a>
     </article>
     <article class="white-panel"><a href="./comment_content.html">
         <img src="./images/comment/19.jpg" class="thumb" alt="">
         <h1><a href="./comment_content.html">冷萃浮乐朵</a></h1>
-      <p>★★★★★</p>
-      </a>
+        <p>★★★★★</p>
+    </a>
     </article>
     <article class="white-panel"><a href="./comment_content.html">
         <img src="./images/comment/20.jpg" class="thumb" alt="">
         <h1><a href="./comment_content.html">气致-冷萃浮乐朵</a></h1>
-      <p>★★★★★</p>
-      </a>
+        <p>★★★★★</p>
+    </a>
     </article>
     <article class="white-panel"><a href="./comment_content.html">
         <img src="./images/comment/21.jpg" class="thumb" alt="">
         <h1><a href="./comment_content.html">冷萃冰咖啡</a></h1>
-      <p>★★★★★</p>
-      </a>
+        <p>★★★★★</p>
+    </a>
     </article>
     <article class="white-panel"><a href="./comment_content.html">
         <img src="./images/comment/22.jpg" class="thumb" alt="">
         <h1><a href="./comment_content.html">轻甜奶油冷萃</a></h1>
-      <p>★★★★☆</p>
-      </a>
+        <p>★★★★☆</p>
+    </a>
     </article>
     <article class="white-panel"><a href="./comment_content.html">
         <img src="./images/comment/23.jpg" class="thumb" alt="">
         <h1><a href="./comment_content.html">绵云冷萃</a></h1>
-      <p>★★★★★</p>
-      </a>
+        <p>★★★★★</p>
+    </a>
     </article>
     <article class="white-panel"><a href="./comment_content.html">
         <img src="./images/comment/27.jpg" class="thumb" alt="">
         <h1><a href="./comment_content.html">卡布奇诺（热/冷）</a></h1>
-      <p>★★★★★</p>
-      </a>
+        <p>★★★★★</p>
+    </a>
     </article>
     <article class="white-panel"><a href="./comment_content.html">
         <img src="./images/comment/26.jpg" class="thumb" alt="">
         <h1><a href="./comment_content.html">摩卡（热/冷）</a></h1>
-      <p>★★★★★</p>
-      </a>
+        <p>★★★★★</p>
+    </a>
     </article>
 
     <article class="white-panel"><a href="./comment_content.html">
         <img src="./images/comment/31.jpg" class="thumb" alt="">
         <h1><a href="./comment_content.html">榛果风味拿铁（热/冷）</a></h1>
-      <p>★★★★☆</p>
-      </a>
+        <p>★★★★☆</p>
+    </a>
     </article>
     <article class="white-panel"><a href="./comment_content.html">
         <img src="./images/comment/32.jpg" class="thumb" alt="">
         <h1><a href="./comment_content.html">香草风味拿铁（热/冷）</a></h1>
-      <p>★★★★★</p>
-      </a>
+        <p>★★★★★</p>
+    </a>
     </article>
     <article class="white-panel"><a href="./comment_content.html">
         <img src="./images/comment/33.jpg" class="thumb" alt="">
         <h1><a href="./comment_content.html">焦糖浓缩咖啡星冰乐</a></h1>
-      <p>★★★★★</p>
-      </a>
+        <p>★★★★★</p>
+    </a>
     </article>
     <article class="white-panel"><a href="./comment_content.html">
         <img src="./images/comment/34.jpg" class="thumb" alt="">
         <h1><a href="./comment_content.html">抹茶星冰乐</a></h1>
-      <p>★★★★☆</p>
-      </a>
+        <p>★★★★☆</p>
+    </a>
     </article>
     <article class="white-panel"><a href="./comment_content.html">
         <img src="./images/comment/35.jpg" class="thumb" alt="">
         <h1><a href="./comment_content.html">芒果西番莲果茶星冰乐</a></h1>
-      <p>★★★★★</p>
-      </a>
+        <p>★★★★★</p>
+    </a>
     </article>
     <article class="white-panel"><a href="./comment_content.html">
         <img src="./images/comment/36.jpg" class="thumb" alt="">
         <h1><a href="./comment_content.html">摩卡星冰乐</a></h1>
-      <p>★★★★★</p>
-      </a>
+        <p>★★★★★</p>
+    </a>
     </article>
     <article class="white-panel"><a href="./comment_content.html">
         <img src="./images/comment/37.jpg" class="thumb" alt="">
         <h1><a href="./comment_content.html">摩卡可可碎片星冰乐</a></h1>
-      <p>★★★★★</p>
-      </a>
+        <p>★★★★★</p>
+    </a>
     </article>
     <article class="white-panel"><a href="./comment_content.html">
         <img src="./images/comment/38.jpg" class="thumb" alt="">
         <h1><a href="./comment_content.html">香草风味星冰乐</a></h1>
-      <p>★★★★★</p>
-      </a>
+        <p>★★★★★</p>
+    </a>
     </article>
     <article class="white-panel"><a href="./comment_content.html">
         <img src="./images/comment/39.jpg" class="thumb" alt="">
         <h1><a href="./comment_content.html">气炫冰山美式</a></h1>
-      <p>★★★★☆</p>
-      </a>
+        <p>★★★★☆</p>
+    </a>
     </article>
     <article class="white-panel"><a href="./comment_content.html">
         <img src="./images/comment/40.jpg" class="thumb" alt="">
         <h1><a href="./comment_content.html">橙柚派对</a></h1>
-      <p>★★★★★</p>
-      </a>
+        <p>★★★★★</p>
+    </a>
     </article>
     <article class="white-panel"><a href="./comment_content.html">
         <img src="./images/comment/41.jpg" class="thumb" alt="">
         <h1><a href="./comment_content.html">醋意桃桃</a></h1>
-      <p>★★★★☆</p>
-      </a>
+        <p>★★★★☆</p>
+    </a>
     </article>
-  </section>
+</section>
 
-  <div class="popup" id="popup">
+<div class="popup" id="popup">
     <div class="popup-inner">
-      <div class="popup__photo">
-        <img src="./images/product2.png" alt="">
+        <div class="popup__photo">
+            <img src="./images/product2.png" alt="">
         </div>
-      <div class="popup__text">
-        <h1>提交评论</h1>
-        <form class="form-group">
-          <div class="input-group">
-            <span class="input-group-addon">昵称</span>
-            <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+        <div class="popup__text">
+            <h1>提交评论</h1>
+            <form class="form-group">
+                <div class="input-group">
+                    <span class="input-group-addon">昵称</span>
+                    <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
                 </div>
-          <div class="input-group margin-top-sm">
-            <span class="input-group-addon">邮箱</span>
-            <input type="text" class="form-control" placeholder="E-mail" aria-describedby="basic-addon1">
+                <div class="input-group margin-top-sm">
+                    <span class="input-group-addon">邮箱</span>
+                    <input type="text" class="form-control" placeholder="E-mail" aria-describedby="basic-addon1">
                 </div>
-          <div class="input-group margin-top-sm">
-            <span class="input-group-addon">订单号</span>
-            <input type="text" class="form-control" placeholder="Order Number" aria-describedby="basic-addon1">
+                <div class="input-group margin-top-sm">
+                    <span class="input-group-addon">订单号</span>
+                    <input type="text" class="form-control" placeholder="Order Number" aria-describedby="basic-addon1">
                 </div>
-          <div class="margin-top-sm">
-            <h5 class="control-label">评价</h5>
-            <textarea class="form-control w-10" placeholder="Order Number"></textarea>
-          </div>
-          <button type="button" class="btn btn-default btn-block margin-top bg-gray" onclick="submitComment()">
+                <div class="margin-top-sm">
+                    <h5 class="control-label">评星</h5>
+                    <nav class="rating">
+                        <ul>
+                            <li class="current">
+                                <svg>
+                                    <use xlink:href="#star"></use>
+                                </svg>
+                            </li>
+                            <li>
+                                <svg>
+                                    <use xlink:href="#star"></use>
+                                </svg>
+                            </li>
+                            <li>
+                                <svg>
+                                    <use xlink:href="#star"></use>
+                                </svg>
+                            </li>
+                            <li><span></span>
+                                <svg>
+                                    <use xlink:href="#star"></use>
+                                </svg>
+                            </li>
+                            <li><span></span>
+                                <svg>
+                                    <use xlink:href="#star"></use>
+                                </svg>
+                            </li>
+                        </ul>
+                        <div><span>
+                          <svg>
+                            <use xlink:href="#star"></use>
+                          </svg>
+                        </span></div>
+                    </nav>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+                        <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 34" id="star">
+                            <path fill="currentColor"
+                                  d="M19.6859343,0.861782958 L24.8136328,8.05088572 C25.0669318,8.40601432 25.4299179,8.6717536 25.8489524,8.80883508 L34.592052,11.6690221 C35.6704701,12.021812 36.2532905,13.1657829 35.8938178,14.2241526 C35.8056709,14.4836775 35.6647294,14.7229267 35.4795411,14.9273903 L29.901129,21.0864353 C29.5299163,21.4962859 29.3444371,22.0366367 29.3872912,22.5833831 L30.1116131,31.8245163 C30.1987981,32.9368499 29.3506698,33.9079379 28.2172657,33.993502 C27.9437428,34.0141511 27.6687736,33.9809301 27.4085205,33.8957918 L18.6506147,31.0307612 C18.2281197,30.8925477 17.7713439,30.8925477 17.3488489,31.0307612 L8.59094317,33.8957918 C7.51252508,34.2485817 6.34688429,33.6765963 5.98741159,32.6182265 C5.90066055,32.3628116 5.86681029,32.0929542 5.88785051,31.8245163 L6.61217242,22.5833831 C6.65502653,22.0366367 6.46954737,21.4962859 6.09833466,21.0864353 L0.519922484,14.9273903 C-0.235294755,14.0935658 -0.158766688,12.8167745 0.690852706,12.0755971 C0.899189467,11.8938516 1.14297067,11.7555303 1.40741159,11.6690221 L10.1505113,8.80883508 C10.5695458,8.6717536 10.9325319,8.40601432 11.1858308,8.05088572 L16.3135293,0.861782958 C16.9654141,-0.0521682813 18.2488096,-0.274439442 19.1800736,0.365326425 C19.3769294,0.500563797 19.5481352,0.668586713 19.6859343,0.861782958 Z"></path>
+                        </symbol>
+                        <path class="shadow"
+                              d="M18.7022469,29.7633426 L29.1611722,33.6861584 C28.8859085,33.8576358 28.5650147,33.9672494 28.2172657,33.993502 C27.9437428,34.0141511 27.6687736,33.9809301 27.4085205,33.8957918 L18.6506147,31.0307612 C18.2281197,30.8925477 17.7713439,30.8925477 17.3488489,31.0307612 L8.59094317,33.8957918 C7.98083887,34.0953792 7.34281791,33.9989813 6.83864817,33.6859784 L17.2977531,29.7633426 C17.7505234,29.5935537 18.2494766,29.5935537 18.7022469,29.7633426 Z"></path>
+                    </svg>
+
+                </div>
+
+                <div class="margin-top-sm">
+                    <h5 class="control-label">评价</h5>
+                    <textarea class="form-control w-10" placeholder="Order Number"></textarea>
+                </div>
+                <button type="button" class="btn btn-default btn-block margin-top bg-gray" onclick="submitComment()">
                     提交
                 </button>
-        </form>
+            </form>
 
-      </div>
-      <a class="popup__close" href="#">X</a>
-    </div>
-  </div>
-
-  <div class="alert-box fixed container right-0 a-fadeinB " style="display: none;">
-    <div class="alert alert-success w-5 fr" role="alert">
-      <span class="glyphicon glyphicon-ok-sign" aria-hidden="true"></span>
-      提交成功
-    </div>
-  </div>
-  <!-- footer -->
-  <div id="footer">
-    <div class="footer-bg">
-      <div class="container">
-        <div class="row padding-tb-lg">
-          <div class="col-md-6 col-xs-8">
-            <div class="row">
-              <div class="table">
-                <div class="th row text-bold text-df text-white hidden-sm">
-                  <div class="col-md-2 padding-0"><a href="#">首页</a></div>
-                  <div class="col-md-2 padding-0"><a href="./new_product.html">新品推荐</a></div>
-                  <div class="col-md-2 padding-0"><a href="./activity.html">活动及优惠</a></div>
-                  <div class="col-md-2 padding-0"><a href="./culture.html">咖啡文化</a></div>
-                  <div class="col-md-2 padding-0"><a href="./comment.html">商品评论</a></div>
-                  <div class="col-md-2 padding-0"><a href="./submitOrder.html">提交订单</a></div>
-                </div>
-                <div class="tb">
-                  <div class="row text-sm">
-                    <div class="col-md-2 padding-0"></div>
-                    <div class="col-md-2 padding-0 padding-top-xs visible-md-block visible-lg-block">
-                      <p class="padding-top-xs text-white pointer" onclick="clickFooter()">当季新品</p>
-                      <p class="padding-top-xs text-white pointer" onclick="clickFooter()">招牌产品</p>
-                      <p class="padding-top-xs text-white pointer" onclick="clickFooter()">陌尘特色</p>
-                      <p class="padding-top-xs text-white pointer" onclick="clickFooter()">咖啡机</p>
-                    </div>
-                    <div class="col-md-2 padding-0 padding-top-xs visible-md-block visible-lg-block">
-                      <p class="padding-top-xs text-white pointer" onclick="clickFooter()">会员卡—陌卡</p>
-                      <p class="padding-top-xs text-white pointer" onclick="clickFooter()">最新活动</p>
-                      <p class="padding-top-xs text-white pointer" onclick="clickFooter()">订阅电子信息</p>
-                    </div>
-                    <div class="col-md-2 padding-0 padding-top-xs visible-md-block visible-lg-block">
-                      <p class="padding-top-xs text-white pointer" onclick="clickFooter()">当季新品</p>
-                      <p class="padding-top-xs text-white pointer" onclick="clickFooter()">咖啡种植</p>
-                      <p class="padding-top-xs text-white pointer" onclick="clickFooter()">咖啡烘焙</p>
-                      <p class="padding-top-xs text-white pointer" onclick="clickFooter()">咖啡伴侣</p>
-                    </div>
-                    <div class="col-md-2 padding-0 padding-top-xs visible-md-block visible-lg-block ">
-                      <p class="padding-top-xs text-white pointer" onclick="clickFooter()">关于陌尘</p>
-                      <p class="padding-top-xs text-white pointer" onclick="clickFooter()">社会责任</p>
-                      <p class="padding-top-xs text-white pointer" onclick="clickFooter()">就业机会</p>
-                      <p class="padding-top-xs text-white pointer" onclick="clickFooter()">特许经营</p>
-                    </div>
-                    <div class="col-md-2 padding-0 padding-top-xs visible-md-block visible-lg-block">
-                      <p class="padding-top-xs text-white pointer" onclick="clickFooter()">分点详情</p>
-                      <p class="padding-top-xs text-white pointer" onclick="clickFooter()">联络详情</p>
-                      <p class="padding-top-xs text-white pointer" onclick="clickFooter()">问题反馈</p>
-                      <p class="padding-top-xs text-white pointer" onclick="clickFooter()">隐私政策</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-xs-8 info text-white text-sm padding-top-xxs hidden-xs">
-            <div class="row padding-bottom-xs">地址：吉林省长春市朝阳区前进大街长春理工大学</div>
-            <div class="row padding-bottom-xs">电话：（082）400 880 08820</div>
-            <div class="row padding-bottom-xs">传真：（082）400 880 08820</div>
-            <div class="row padding-bottom-xs">邮箱：chenmo1212@qq.com</div>
-            <div class="row padding-bottom-xs">顾客服务热线：（082）400 880 08820</div>
-          </div>
-          <div class="col-md-2  col-xs-4">
-            <div class="row padding-top-xxs">
-              <div class="col-md-8 col-sm-8 col-xs-11">
-                <img src="./images/avatar.png" style="width: 100%;" alt="">
-                <div class="text-white text-center padding-top-xs pointer" onclick="toAboutMe()">查看“关于我"</div>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
+        <a class="popup__close" href="#">X</a>
     </div>
-  </div>
+</div>
 
-  <!-- flash loading -->
-  <div class="loading-box" id="loading-box" style="display: none;">
+<div class="alert-box fixed container right-0 a-fadeinB " style="display: none;">
+    <div class="alert alert-success w-5 fr" role="alert">
+        <span class="glyphicon glyphicon-ok-sign" aria-hidden="true"></span>
+        提交成功
+    </div>
+</div>
+<!-- footer -->
+<div id="footer">
+    <div class="footer-bg">
+        <div class="container">
+            <div class="row padding-tb-lg">
+                <div class="col-md-6 col-xs-8">
+                    <div class="row">
+                        <div class="table">
+                            <div class="th row text-bold text-df text-white hidden-sm">
+                                <div class="col-md-2 padding-0"><a href="#">首页</a></div>
+                                <div class="col-md-2 padding-0"><a href="./new_product.html">新品推荐</a></div>
+                                <div class="col-md-2 padding-0"><a href="./activity.html">活动及优惠</a></div>
+                                <div class="col-md-2 padding-0"><a href="./culture.html">咖啡文化</a></div>
+                                <div class="col-md-2 padding-0"><a href="./comment.html">商品评论</a></div>
+                                <div class="col-md-2 padding-0"><a href="./submitOrder.html">提交订单</a></div>
+                            </div>
+                            <div class="tb">
+                                <div class="row text-sm">
+                                    <div class="col-md-2 padding-0"></div>
+                                    <div class="col-md-2 padding-0 padding-top-xs visible-md-block visible-lg-block">
+                                        <p class="padding-top-xs text-white pointer" onclick="clickFooter()">当季新品</p>
+                                        <p class="padding-top-xs text-white pointer" onclick="clickFooter()">招牌产品</p>
+                                        <p class="padding-top-xs text-white pointer" onclick="clickFooter()">陌尘特色</p>
+                                        <p class="padding-top-xs text-white pointer" onclick="clickFooter()">咖啡机</p>
+                                    </div>
+                                    <div class="col-md-2 padding-0 padding-top-xs visible-md-block visible-lg-block">
+                                        <p class="padding-top-xs text-white pointer" onclick="clickFooter()">会员卡—陌卡</p>
+                                        <p class="padding-top-xs text-white pointer" onclick="clickFooter()">最新活动</p>
+                                        <p class="padding-top-xs text-white pointer" onclick="clickFooter()">订阅电子信息</p>
+                                    </div>
+                                    <div class="col-md-2 padding-0 padding-top-xs visible-md-block visible-lg-block">
+                                        <p class="padding-top-xs text-white pointer" onclick="clickFooter()">当季新品</p>
+                                        <p class="padding-top-xs text-white pointer" onclick="clickFooter()">咖啡种植</p>
+                                        <p class="padding-top-xs text-white pointer" onclick="clickFooter()">咖啡烘焙</p>
+                                        <p class="padding-top-xs text-white pointer" onclick="clickFooter()">咖啡伴侣</p>
+                                    </div>
+                                    <div class="col-md-2 padding-0 padding-top-xs visible-md-block visible-lg-block ">
+                                        <p class="padding-top-xs text-white pointer" onclick="clickFooter()">关于陌尘</p>
+                                        <p class="padding-top-xs text-white pointer" onclick="clickFooter()">社会责任</p>
+                                        <p class="padding-top-xs text-white pointer" onclick="clickFooter()">就业机会</p>
+                                        <p class="padding-top-xs text-white pointer" onclick="clickFooter()">特许经营</p>
+                                    </div>
+                                    <div class="col-md-2 padding-0 padding-top-xs visible-md-block visible-lg-block">
+                                        <p class="padding-top-xs text-white pointer" onclick="clickFooter()">分点详情</p>
+                                        <p class="padding-top-xs text-white pointer" onclick="clickFooter()">联络详情</p>
+                                        <p class="padding-top-xs text-white pointer" onclick="clickFooter()">问题反馈</p>
+                                        <p class="padding-top-xs text-white pointer" onclick="clickFooter()">隐私政策</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-8 info text-white text-sm padding-top-xxs hidden-xs">
+                    <div class="row padding-bottom-xs">地址：吉林省长春市朝阳区前进大街长春理工大学</div>
+                    <div class="row padding-bottom-xs">电话：（082）400 880 08820</div>
+                    <div class="row padding-bottom-xs">传真：（082）400 880 08820</div>
+                    <div class="row padding-bottom-xs">邮箱：chenmo1212@qq.com</div>
+                    <div class="row padding-bottom-xs">顾客服务热线：（082）400 880 08820</div>
+                </div>
+                <div class="col-md-2  col-xs-4">
+                    <div class="row padding-top-xxs">
+                        <div class="col-md-8 col-sm-8 col-xs-11">
+                            <img src="./images/avatar.png" style="width: 100%;" alt="">
+                            <div class="text-white text-center padding-top-xs pointer" onclick="toAboutMe()">查看“关于我"
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- flash loading -->
+<div class="loading-box" id="loading-box" style="display: none;">
     <div class="loading-bg w-10 h-10 mask"></div>
     <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="100" height="100" id="loading" align="middle">
-        <param name="movie" value="./swf/loading2.swf" />
-        <param name="quality" value="high" />
-        <param name="bgcolor" value="#ffffff" />
-        <param name="play" value="true" />
-        <param name="loop" value="true" />
-        <param name="wmode" value="window" />
-        <param name="scale" value="showall" />
-        <param name="menu" value="true" />
-        <param name="devicefont" value="false" />
-        <param name="salign" value="" />
-        <param name="allowScriptAccess" value="sameDomain" />
+        <param name="movie" value="./swf/loading2.swf"/>
+        <param name="quality" value="high"/>
+        <param name="bgcolor" value="#ffffff"/>
+        <param name="play" value="true"/>
+        <param name="loop" value="true"/>
+        <param name="wmode" value="window"/>
+        <param name="scale" value="showall"/>
+        <param name="menu" value="true"/>
+        <param name="devicefont" value="false"/>
+        <param name="salign" value=""/>
+        <param name="allowScriptAccess" value="sameDomain"/>
         <!--[if !IE]>-->
         <object type="application/x-shockwave-flash" data="./swf/loading2.swf" width="100" height="100">
-          <param name="movie" value="./swf/loading2.swf" />
-          <param name="quality" value="high" />
-          <param name="bgcolor" value="#ffffff" />
-          <param name="play" value="true" />
-          <param name="loop" value="true" />
-          <param name="wmode" value="window" />
-          <param name="scale" value="showall" />
-          <param name="menu" value="true" />
-          <param name="devicefont" value="false" />
-          <param name="salign" value="" />
-          <param name="allowScriptAccess" value="sameDomain" />
-        <!--<![endif]-->
-          <a href="http://www.adobe.com/go/getflash">
-            <img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="获得 Adobe Flash Player" />
-          </a>
-        <!--[if !IE]>-->
+            <param name="movie" value="./swf/loading2.swf"/>
+            <param name="quality" value="high"/>
+            <param name="bgcolor" value="#ffffff"/>
+            <param name="play" value="true"/>
+            <param name="loop" value="true"/>
+            <param name="wmode" value="window"/>
+            <param name="scale" value="showall"/>
+            <param name="menu" value="true"/>
+            <param name="devicefont" value="false"/>
+            <param name="salign" value=""/>
+            <param name="allowScriptAccess" value="sameDomain"/>
+            <!--<![endif]-->
+            <a href="http://www.adobe.com/go/getflash">
+                <img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif"
+                     alt="获得 Adobe Flash Player"/>
+            </a>
+            <!--[if !IE]>-->
         </object>
-    <!--<![endif]-->
+        <!--<![endif]-->
     </object>
-  </div>
+</div>
 
-  <script src="./js/jquery.min.js"></script>
-  <script src="./js/bootstrap.min.js"></script>
-  <script src="./js/common.js"></script>
-  <script>
+<script src="./js/jquery.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/common.js"></script>
+<script>
     // $(document).ready(function () {
     //     // 利用jq的load方法引入header
     //     $("#header").load('./components/header.html');
@@ -407,45 +460,79 @@
     //     $("#footer").load('./components/footer.html');
     // });
 
-    $(function() {
-      $("#gallery-wrapper").pinterest_grid({
-        no_columns: 5,
-        padding_x: 10,
-        padding_y: 10,
-        margin_bottom: 50,
-        single_column_breakpoint: 700
-      });
+    $(function () {
+        $("#gallery-wrapper").pinterest_grid({
+            no_columns: 5,
+            padding_x: 10,
+            padding_y: 10,
+            margin_bottom: 50,
+            single_column_breakpoint: 700
+        });
 
     });
 
     function submitComment() {
-      $("#loading-box").css({
-        display: ""
-      });
-      setTimeout(function() {
         $("#loading-box").css({
-          display: "none"
+            display: ""
         });
-        // $("#loading-box").css("display","");
-        $('#contact').addClass('submitted');
-        $('#contact #logo').removeClass('bouncing');
+        setTimeout(function () {
+            $("#loading-box").css({
+                display: "none"
+            });
+            // $("#loading-box").css("display","");
+            $('#contact').addClass('submitted');
+            $('#contact #logo').removeClass('bouncing');
 
-        $(".alert-box").css({
-          display: ""
-        });
-        var timeId1 = setTimeout(function() {
-          $(".alert-box").addClass('a-fadeout');
-          var timeId2 = setTimeout(function() {
             $(".alert-box").css({
-              display: "none"
-            }).removeClass('a-fadeout');
-            clearTimeout(timeId1);
-            clearTimeout(timeId2);
-          }, 1000)
-        }, 3000)
-      }, 3000);
+                display: ""
+            });
+            var timeId1 = setTimeout(function () {
+                $(".alert-box").addClass('a-fadeout');
+                var timeId2 = setTimeout(function () {
+                    $(".alert-box").css({
+                        display: "none"
+                    }).removeClass('a-fadeout');
+                    clearTimeout(timeId1);
+                    clearTimeout(timeId2);
+                }, 1000)
+            }, 3000)
+        }, 3000);
     }
-  </script>
+
+    $('.rating ul li').on('click', function () {
+
+        let li = $(this),
+            ul = li.parent(),
+            rating = ul.parent(),
+            last = ul.find('.current');
+
+        if (!rating.hasClass('animate-left') && !rating.hasClass('animate-right')) {
+
+            last.removeClass('current');
+
+            ul.children('li').each(function () {
+                let current = $(this);
+                current.toggleClass('active', li.index() > current.index());
+            });
+
+            rating.addClass(li.index() > last.index() ? 'animate-right' : 'animate-left');
+            rating.css({
+                '--x': li.position().left + 'px'
+            });
+            li.addClass('move-to');
+            last.addClass('move-from');
+
+            setTimeout(() => {
+                li.addClass('current');
+                li.removeClass('move-to');
+                last.removeClass('move-from');
+                rating.removeClass('animate-left animate-right');
+            }, 800);
+
+        }
+
+    })
+</script>
 </body>
 
 </html>
