@@ -100,9 +100,45 @@ textarea {
 }
 
 .navbar-toggle {
-    padding: 17px 10px;
+    padding: 0;
+    margin-top: 11px;
+    margin-bottom: 11px;
+    color: #ecf0f1;
+    text-align: center;
 }
 
+.hamburger .line{
+    width: 30px;
+    height: 3px;
+    background-color: #3f2200;
+    display: block;
+    margin: 8px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.hamburger:hover{
+    cursor: pointer;
+}
+
+#hamburger-1.is-active .line:nth-child(2){
+    opacity: 0;
+}
+
+#hamburger-1.is-active .line:nth-child(1){
+    -webkit-transform: translateY(11px) rotate(45deg);
+    -ms-transform: translateY(11px) rotate(45deg);
+    -o-transform: translateY(11px) rotate(45deg);
+    transform: translateY(11px) rotate(45deg);
+}
+
+#hamburger-1.is-active .line:nth-child(3){
+    -webkit-transform: translateY(-11px) rotate(-45deg);
+    -ms-transform: translateY(-11px) rotate(-45deg);
+    -o-transform: translateY(-11px) rotate(-45deg);
+    transform: translateY(-11px) rotate(-45deg);
+}
 /*
 * footer
 */

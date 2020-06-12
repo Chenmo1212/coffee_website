@@ -335,3 +335,10 @@ function clickFooter(){
 function toAboutMe(){
   window.location.href = "./aboutMe.html"
 }
+
+// 移动端header菜单样式
+$(document).ready(function(){
+  $(".hamburger").click(function(){
+      $(this).toggleClass("is-active");
+  });
+});
