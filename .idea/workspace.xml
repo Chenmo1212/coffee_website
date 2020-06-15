@@ -4,20 +4,8 @@
     <bookmark url="file://$PROJECT_DIR$/index.html" description="  &lt;!-- Bootstrap --&gt;&#10;  &lt;link href=&quot;./css/bootstrap..." line="10" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66f5c627-8b7c-4b00-8e29-6221aa127b6a" name="Default Changelist" comment="add spec radio">
+    <list default="true" id="66f5c627-8b7c-4b00-8e29-6221aa127b6a" name="Default Changelist" comment="change header style">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aboutMe.html" beforeDir="false" afterPath="$PROJECT_DIR$/aboutMe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/activity.html" beforeDir="false" afterPath="$PROJECT_DIR$/activity.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/article.html" beforeDir="false" afterPath="$PROJECT_DIR$/article.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/article1.html" beforeDir="false" afterPath="$PROJECT_DIR$/article1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/article2.html" beforeDir="false" afterPath="$PROJECT_DIR$/article2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comment.html" beforeDir="false" afterPath="$PROJECT_DIR$/comment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/culture.html" beforeDir="false" afterPath="$PROJECT_DIR$/culture.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_product.html" beforeDir="false" afterPath="$PROJECT_DIR$/new_product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/submitOrder.html" beforeDir="false" afterPath="$PROJECT_DIR$/submitOrder.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -330,7 +318,7 @@
       <workItem from="1589785516422" duration="28322000" />
       <workItem from="1591869702580" duration="1194000" />
       <workItem from="1591926794020" duration="332000" />
-      <workItem from="1591941921710" duration="1238000" />
+      <workItem from="1591941921710" duration="3182000" />
     </task>
     <task id="LOCAL-00001" summary="spider">
       <created>1586011599925</created>
@@ -416,11 +404,18 @@
       <option name="project" value="LOCAL" />
       <updated>1589817254939</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="change header style">
+      <created>1591943309715</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1591943309715</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113525000" />
+    <option name="totallyTimeSpent" value="115469000" />
   </component>
   <component name="TodoView" selected-index="4" />
   <component name="ToolWindowManager">
@@ -474,7 +469,8 @@
     <MESSAGE value="coffee culture" />
     <MESSAGE value="comment page" />
     <MESSAGE value="add rank star" />
-    <option name="LAST_COMMIT_MESSAGE" value="add rank star" />
+    <MESSAGE value="change header style" />
+    <option name="LAST_COMMIT_MESSAGE" value="change header style" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/js/npm.js" />
