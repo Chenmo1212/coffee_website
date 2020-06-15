@@ -12,6 +12,7 @@
   <link href="./css/bootstrap.min.css" rel="stylesheet">
   <link href="./css/main.css" rel="stylesheet">
   <link href="./css/common.css" rel="stylesheet">
+  <link href="./css/loading.css" rel="stylesheet">
 </head>
 
 <body>
@@ -119,7 +120,7 @@
                       </div>
                       <div class="layui-form-item">
                         <div class="layui-input-block" style="text-align: right;">
-                          <button class="layui-btn definite">确定</button>
+                          <span class="layui-btn inline-block text-center" onclick="showLoading()">确定</span>
                         </div>
                       </div>
                     </form>
@@ -184,12 +185,22 @@
       </div>
     </div>
 
-
+    <div class="loading" style="display: none" id="loading-box">
+      <div class="loading-bg w-10 h-10 mask"></div>
+      <div class="column">
+        <div class="loading-container animation-5">
+          <div class="shape shape1"></div>
+          <div class="shape shape2"></div>
+          <div class="shape shape3"></div>
+          <div class="shape shape4"></div>
+        </div>
+      </div>
+    </div>
 
     <div class="alert-box fixed container right-0 a-fadeinB " style="display: none;">
       <div class="alert alert-success w-5 fr" role="alert">
         <span class="glyphicon glyphicon-ok-sign" aria-hidden="true"></span>
-        <span class="alert-text">没有更多了哦</span>
+        <span class="alert-text">评论成功了哦~</span>
       </div>
     </div>
 
