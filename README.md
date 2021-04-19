@@ -10,7 +10,7 @@
 
 ## 使用技术
 
-网站由`Html5` ，`Css` ， `Js`进行开发，主要依赖于`Bootstrap`和`Css的媒体查询`实现响应式布局，利用`Jquery`实现部分动画效果，另有部分动画使用到了`Flash`制作的**loading动画**（课程要求），使用`pinterest_grid.js`实现评论区的**瀑布流布局**。
+网站由`Html5` ，`Css` ， `Js`进行开发，主要依赖于`Bootstrap`和`Css的媒体查询`实现**响应式布局**，利用`Jquery`实现部分动画效果，另有部分动画使用到了`Flash`制作的**loading动画**（课程要求），使用`pinterest_grid.js`实现评论区的**瀑布流布局**。
 
 ## 网页截图
 
